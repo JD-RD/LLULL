@@ -1,0 +1,18 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "websockets tests",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Bernat Ferragut",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}

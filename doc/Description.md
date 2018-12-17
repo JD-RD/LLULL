@@ -1,6 +1,7 @@
 - [LLULL](#llull)
   - [Ramon Llull](#ramon-llull)
   - [Concept](#concept)
+  - [Performance](#performance)
   - [Technologies](#technologies)
   - [Sources](#sources)
 
@@ -26,6 +27,9 @@ L'oeuvre de Llull est l'étincelle qui a inspiré le présent projet. Toutefois,
 Les paramètres de cette machine sont inspirés des documents rédigés par Llull. Plus précisément, **LLULL** permet à celui qui l'utilise de génère des vibrations sonores (fréquences), des formes géométriques et *potentiellement* des couleurs tirées de de l'enseignement de [Ramon Llull](https://en.wikipedia.org/wiki/Ramon_Llull). Ainsi, **LLULL** permet de concrétiser les idées de Ramon Llull en ce qui à trait à son concept de combinaisons [***!!! à vérifier/développer/documenter !!!***].
 
 Cette _**machine à art génératif**_ réside entièrement à l'intérieur d'un simple navigateur internet. Un des attraits de ce projet se situe dans son grand potentiel en termes de [médiation culturelle](https://fr.wikipedia.org/wiki/M%C3%A9diation_culturelle). LLULL vise à mettre à profit les plus récentes fonctionnalités en matière de gestion et de création de matériel audio, visuel et de contrôle externe sur le web. En simple, cela signifie que les oeuvres générés via LLULL jouiront d'un potentiel de diffusion international par le fait que c'est un instrument par défaut compatible avec le web.
+
+## Performance
+* LLULL est une performance audio visuelle où les deux artistes modifient en temps réel les caractéristiques audio et vidéo de l'oeuvre. Les combinaisons de sons et d'images inspirées de Llull ont été soigneusement paramétrées dans le but d'en tirer une esthétique non seulement expérimentale, mais accessible au public. Ainsi, les auteurs y ont infusé leur amour pour l'esthétique minimale, de la musique Dub et Techno.
 
 ## Technologies
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

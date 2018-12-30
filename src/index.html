@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src='libraries/Tone.min.js'></script>
+    <script src="libraries/webmidi.min.js"></script>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--  -->
+    <script>
+      if (navigator.requestMIDIAccess) {
+          console.log('This browser supports WebMIDI!');
+      } else {
+          console.log('WebMIDI is not supported in this browser.');
+      }
+    </script>  
+  </head>
+  <body>
+    <h1>MIDI Data:</h1><br>
+    <div>
+      <h3>Device name:</h3>
+      <ul>
+        <li id="targetName"></li>
+      </ul>
+      <h3>Channel:</h3>
+      <ul>
+        <li id="channel"></li>
+      </ul>
+      <h3>Type:</h3> 
+      <ul>
+        <li id="type"></li>
+      </ul>
+      <h3>Knob number:</h3> 
+      <ul>
+        <li id="knobNumber"></li>
+      </ul>
+      <h3>Value:</h3> 
+      <ul>
+        <li id="value"></li>
+      </ul>
+      <h3>Timestamp:</h3> 
+      <ul>
+        <li id="timestamp"></li>
+      </ul>
+    </div>
+    <div id="sketch-holder">
+      <div id="sliders-holder"></div>
+    </div>
+  </body>

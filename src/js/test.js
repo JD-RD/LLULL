@@ -1,3 +1,6 @@
+/* global background, createSlider, createCanvas, noStroke, fill, color,
+ ellipse, Tone, WebMidi, random */
+
 // Slider s for Size'
 // Slider rnd for Random'
 // Slider alph for 'Alpha'
@@ -7,9 +10,7 @@
 let w = 732
 let h = 250
 let s = 2
-let gds
-// dot
-let dot
+
 // slider params
 let spacing = 9
 let dotList = []
@@ -30,15 +31,12 @@ function matrix () {
 
 function setup () {
   // sliders \\ createSlider(min, max, [default], [stepSize])
-  s_size = createSlider(1, 10, 2)
-  s_size.parent('sliders-holder')
-  s_rnd = createSlider(0, 10, 0)
-  s_rnd.parent('sliders-holder')
-  s_alph = createSlider(0, 50, 25)
-  s_alph.parent('sliders-holder')
-  // buttons
-  // b_reset = createButton('reset');
-  // b_reset.parent('sliders-holder');
+  sSize = createSlider(1, 10, 2)
+  sSize.parent('sliders-holder')
+  sRnd = createSlider(0, 10, 0)
+  sRnd.parent('sliders-holder')
+  sAlph = createSlider(0, 50, 25)
+  sAlph.parent('sliders-holder')
 
   // canvas
   var canvas = createCanvas(w, h)
@@ -51,9 +49,9 @@ function draw () {
   background(0, alph)
 
   // sliders control
-  s = s_size.value()
-  rnd = s_rnd.value()
-  alph = s_alph.value()
+  s = sSize.value()
+  rnd = sRnd.value()
+  alph = sAlph.value()
 
   // button
   // b_reset.mousePressed(matrix);
@@ -120,13 +118,13 @@ WebMidi.enable(function () {
       console.log('MIDI Control: ', e)
       switch (e.controller.number) {
         case 1:
-          s_size.value(e.value / 12.7) // Slider max is 10, knob max is 127 
+          sSize.value(e.value / 12.7) // Slider max is 10, knob max is 127 
           break                        // so each steps should be 12.7
         case 2:
-          s_rnd.value(e.value / 12.7)
+          sRnd.value(e.value / 12.7)
           break
         case 3:
-          s_alph.value(e.value / 2.54)
+          sAlph.value(e.value / 2.54)
           break
         case 4:
           break

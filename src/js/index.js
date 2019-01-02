@@ -84,32 +84,32 @@ class Dot {
 console.clear();
 
 class MIDIAccess {
-  constructor(args = {}) {
-    this.onDeviceInput = args.onDeviceInput || console.log;
-  }
+    constructor(args = {}) {
+        this.onDeviceInput = args.onDeviceInput || console.log;
+    }
 
-  start() {
+    start() {
     return new Promise((resolve, reject) => {
-      this._requestAccess().then(access => {
-        this.initialize(access);
-        resolve();
-      }).catch(() => reject('Something went wrong.'));
-    });
-  }
+            this._requestAccess().then(access => {
+            this.initialize(access);
+            resolve();
+            }).catch(() => reject('Something went wrong.'));
+        });
+    }
 
-  initialize(access) {
-    const devices = access.inputs.values();
-    for (let device of devices) this.initializeDevice(device);
-  }
+    initialize(access) {
+        const devices = access.inputs.values();
+        for (let device of devices) this.initializeDevice(device);
+    }
 
-  initializeDevice(device) {
-    device.onmidimessage = this.onMessage.bind(this);
-  }
-  
-  onMessage(message) {
-    let [_, input, value] = message.data;
-    this.onDeviceInput({ input, value });
-  }
+    initializeDevice(device) {
+        device.onmidimessage = this.onMessage.bind(this);
+    }
+
+    onMessage(message) {
+        let [_, input, value] = message.data;
+        this.onDeviceInput({ input, value });
+    }
 
   _requestAccess() {
     return new Promise((resolve, reject) => {
@@ -156,12 +156,12 @@ class Instrument {
 const inst = new Instrument();
 const midi = new MIDIAccess({ onDeviceInput });
 midi.start().then(() => {
-  console.log('STARTED!');
+  console.log('MIDI STARTED!');
 }).catch(console.error);
 
 function onDeviceInput({ input, value }) {
   if (input === 85) inst.toggleSound(value);
   else if (input === 12) inst.handleVolume(value);
   else if (input === 13) inst.handleFilter(value);
-  else console.log('onDeviceInput!', input, value);
+  else console.log('MIDI Input: ', input, value);
 }

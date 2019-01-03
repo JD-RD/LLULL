@@ -115,7 +115,9 @@ WebMidi.enable(function () {
   // Listen to control change message on channel 1
   input.addListener('controlchange', 1,
     function (e) {
-      console.log('MIDI Control: ', e)
+      var logText = '[Control] Number: ' + e.controller.number + ', Value: ' + e.value
+      console.log(logText)
+
       switch (e.controller.number) {
         case 1:
           sSize.value(e.value / 12.7) // Slider max is 10, knob max is 127 

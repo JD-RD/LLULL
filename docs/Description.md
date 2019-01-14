@@ -2,6 +2,7 @@
   - [Ramon Llull](#ramon-llull)
   - [Concept](#concept)
   - [Performance](#performance)
+    - [Concrètement](#concr%C3%A8tement)
   - [Technologies](#technologies)
   - [Sources](#sources)
 
@@ -19,6 +20,10 @@ Performance audio visuelle dédiée l'incomparable [Ramon Llull](https://en.wiki
 >En plus de l'impportance de Llull en ce qui a trait aux principes combinatoires et principes algorithmiques dans le développement technologique et du transfert de valeurs et de connaissances qui peuvent être adressé via le dialogue.
 
 ## Concept
+[TODO] 
+
+* LLULL est un voyage à travers l'échèle de la sagesse ("stairs of wisdom") qui est représentées 9 questions sous forme de performance visuelle et sonore.
+
 
 [**TODO**] ***Mettre en lumière le caractère innovateur, technologique, et esthétique (stimulation auditive, visuelle et spirituelle) du projet***
 
@@ -30,6 +35,10 @@ Cette _**machine à art génératif**_ réside entièrement à l'intérieur d'un
 
 ## Performance
 * LLULL est une performance audio visuelle où les deux artistes modifient en temps réel les caractéristiques audio et vidéo de l'oeuvre. Les combinaisons de sons et d'images inspirées de Llull ont été soigneusement paramétrées dans le but d'en tirer une esthétique non seulement expérimentale, mais accessible au public. Ainsi, les auteurs y ont infusé leur amour pour l'esthétique minimale, de la musique Dub et Techno.
+
+### Concrètement
+[TODO] Valider l'idée avec Bernat
+* La performance se divise en 7 scènes ([source](http://lullianarts.narpan.net/harmonic2.htm)).
 
 ## Technologies
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

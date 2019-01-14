@@ -1,0 +1,1851 @@
+%PDF-1.5%‚„œ”
+1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 44125/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Cycle des quintes v2.0 - Fonctions tonales</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/">
+         <xmp:CreatorTool>Adobe Illustrator CS6 (Windows)</xmp:CreatorTool>
+         <xmp:CreateDate>2014-12-10T19:25:56+02:00</xmp:CreateDate>
+         <xmp:ModifyDate>2014-12-10T19:25:56+01:00</xmp:ModifyDate>
+         <xmp:MetadataDate>2014-12-10T19:25:56+01:00</xmp:MetadataDate>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgBAAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A71mwaXYq7FXYq7FXYq7F&#xA;XYq7FXYq7FXYq7FUvu9btLW6FtJHOZW+xwhkcNReR4lQQaDrTMjHppSjxAiveGBmAaR4NQD4+OY7&#xA;NvFXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYq7FXYqoXt7a2NlcXt3IIbS1jea4mb7KRxqWd&#xA;j7BRXFUB5V8y6Z5n8vWOvaYWNlfx+pEJAA60JVkcKWAZWUqaE74ImxaSgtP/ADA8r32rW2jLcmLV&#xA;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&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV/9k=</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:OriginalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</xmpMM:OriginalDocumentID>
+         <xmpMM:DocumentID>xmp.did:15CA292A8780E411B5ECEE21CDB95B3A</xmpMM:DocumentID>
+         <xmpMM:InstanceID>uuid:b52246e9-0e85-4a74-82fa-1e272f06d436</xmpMM:InstanceID>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>xmp.iid:0FCA292A8780E411B5ECEE21CDB95B3A</stRef:instanceID>
+            <stRef:documentID>xmp.did:0FCA292A8780E411B5ECEE21CDB95B3A</stRef:documentID>
+            <stRef:originalDocumentID>uuid:65E6390686CF11DBA6E2D887CEACB407</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:E9A10DB0917CE4118593C61D5215B034</stEvt:instanceID>
+                  <stEvt:when>2014-12-05T16:16:29+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:15CA292A8780E411B5ECEE21CDB95B3A</stEvt:instanceID>
+                  <stEvt:when>2014-12-10T19:25:52+01:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CS6 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/">
+         <illustrator:StartupProfile>Web</illustrator:StartupProfile>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/">
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:HasVisibleTransparency>True</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>590.000000</stDim:w>
+            <stDim:h>255.000000</stDim:h>
+            <stDim:unit>Pixels</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>MyriadPro-Regular</stFnt:fontName>
+                  <stFnt:fontFamily>Myriad Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>Open Type</stFnt:fontType>
+                  <stFnt:versionString>Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>AGaramondPro-Regular</stFnt:fontName>
+                  <stFnt:fontFamily>Adobe Garamond Pro</stFnt:fontFamily>
+                  <stFnt:fontFace>Regular</stFnt:fontFace>
+                  <stFnt:fontType>Open Type</stFnt:fontType>
+                  <stFnt:versionString>Version 2.111;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>AGaramondPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Cyan</rdf:li>
+               <rdf:li>Magenta</rdf:li>
+               <rdf:li>Yellow</rdf:li>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Groupe de nuances par d√©faut</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Blanc</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>255</xmpG:green>
+                           <xmpG:blue>255</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Noir</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>0</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Rouge RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>0</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Jaune RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>255</xmpG:green>
+                           <xmpG:blue>0</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Vert RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>255</xmpG:green>
+                           <xmpG:blue>0</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Cyan RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>255</xmpG:green>
+                           <xmpG:blue>255</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Bleu RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>255</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Magenta RVB</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>255</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=193 V=39 B=45</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>193</xmpG:red>
+                           <xmpG:green>39</xmpG:green>
+                           <xmpG:blue>45</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=237 V=28 B=36</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>237</xmpG:red>
+                           <xmpG:green>28</xmpG:green>
+                           <xmpG:blue>36</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=241 V=90 B=36</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>241</xmpG:red>
+                           <xmpG:green>90</xmpG:green>
+                           <xmpG:blue>36</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=247 V=147 B=30</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>247</xmpG:red>
+                           <xmpG:green>147</xmpG:green>
+                           <xmpG:blue>30</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=251 V=176 B=59</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>251</xmpG:red>
+                           <xmpG:green>176</xmpG:green>
+                           <xmpG:blue>59</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=252 V=238 B=33</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>252</xmpG:red>
+                           <xmpG:green>238</xmpG:green>
+                           <xmpG:blue>33</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=217 V=224 B=33</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>217</xmpG:red>
+                           <xmpG:green>224</xmpG:green>
+                           <xmpG:blue>33</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=140 V=198 B=63</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>140</xmpG:red>
+                           <xmpG:green>198</xmpG:green>
+                           <xmpG:blue>63</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=57 V=181 B=74</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>57</xmpG:red>
+                           <xmpG:green>181</xmpG:green>
+                           <xmpG:blue>74</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=0 V=146 B=69</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>146</xmpG:green>
+                           <xmpG:blue>69</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=0 V=104 B=55</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>104</xmpG:green>
+                           <xmpG:blue>55</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=34 V=181 B=115</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>34</xmpG:red>
+                           <xmpG:green>181</xmpG:green>
+                           <xmpG:blue>115</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=0 V=69 B=157</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>169</xmpG:green>
+                           <xmpG:blue>157</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=41 V=71 B=226</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>41</xmpG:red>
+                           <xmpG:green>171</xmpG:green>
+                           <xmpG:blue>226</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=0 V=113 B=188</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>113</xmpG:green>
+                           <xmpG:blue>188</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=46 V=49 B=146</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>46</xmpG:red>
+                           <xmpG:green>49</xmpG:green>
+                           <xmpG:blue>146</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=27 V=20 B=100</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>27</xmpG:red>
+                           <xmpG:green>20</xmpG:green>
+                           <xmpG:blue>100</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=102 V=45 B=145</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>102</xmpG:red>
+                           <xmpG:green>45</xmpG:green>
+                           <xmpG:blue>145</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=147 V=39 B=143</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>147</xmpG:red>
+                           <xmpG:green>39</xmpG:green>
+                           <xmpG:blue>143</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=158 V=0 B=93</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>158</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>93</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=212 V=20 B=90</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>212</xmpG:red>
+                           <xmpG:green>20</xmpG:green>
+                           <xmpG:blue>90</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=237 V=30 B=121</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>237</xmpG:red>
+                           <xmpG:green>30</xmpG:green>
+                           <xmpG:blue>121</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=199 V=178 B=153</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>199</xmpG:red>
+                           <xmpG:green>178</xmpG:green>
+                           <xmpG:blue>153</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=153 V=134 B=117</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>153</xmpG:red>
+                           <xmpG:green>134</xmpG:green>
+                           <xmpG:blue>117</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=115 V=99 B=87</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>115</xmpG:red>
+                           <xmpG:green>99</xmpG:green>
+                           <xmpG:blue>87</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=83 V=71 B=65</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>83</xmpG:red>
+                           <xmpG:green>71</xmpG:green>
+                           <xmpG:blue>65</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=198 V=156 B=109</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>198</xmpG:red>
+                           <xmpG:green>156</xmpG:green>
+                           <xmpG:blue>109</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=166 V=124 B=82</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>166</xmpG:red>
+                           <xmpG:green>124</xmpG:green>
+                           <xmpG:blue>82</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=140 V=98 B=57</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>140</xmpG:red>
+                           <xmpG:green>98</xmpG:green>
+                           <xmpG:blue>57</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=117 V=76 B=36</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>117</xmpG:red>
+                           <xmpG:green>76</xmpG:green>
+                           <xmpG:blue>36</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=96 V=56 B=19</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>96</xmpG:red>
+                           <xmpG:green>56</xmpG:green>
+                           <xmpG:blue>19</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=66 V=33 B=11</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>66</xmpG:red>
+                           <xmpG:green>33</xmpG:green>
+                           <xmpG:blue>11</xmpG:blue>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Gris</xmpG:groupName>
+                  <xmpG:groupType>1</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=0 V=0 B=0</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>0</xmpG:red>
+                           <xmpG:green>0</xmpG:green>
+                           <xmpG:blue>0</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=26 V=26 B=26</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>26</xmpG:red>
+                           <xmpG:green>26</xmpG:green>
+                           <xmpG:blue>26</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=51 V=51 B=51</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>51</xmpG:red>
+                           <xmpG:green>51</xmpG:green>
+                           <xmpG:blue>51</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=77 V=77 B=77</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>77</xmpG:red>
+                           <xmpG:green>77</xmpG:green>
+                           <xmpG:blue>77</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=102 V=102 B=102</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>102</xmpG:red>
+                           <xmpG:green>102</xmpG:green>
+                           <xmpG:blue>102</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=128 V=128 B=128</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>128</xmpG:red>
+                           <xmpG:green>128</xmpG:green>
+                           <xmpG:blue>128</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=153 V=153 B=153</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>153</xmpG:red>
+                           <xmpG:green>153</xmpG:green>
+                           <xmpG:blue>153</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=179 V=179 B=179</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>179</xmpG:red>
+                           <xmpG:green>179</xmpG:green>
+                           <xmpG:blue>179</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=204 V=204 B=204</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>204</xmpG:red>
+                           <xmpG:green>204</xmpG:green>
+                           <xmpG:blue>204</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=230 V=230 B=230</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>230</xmpG:red>
+                           <xmpG:green>230</xmpG:green>
+                           <xmpG:blue>230</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=242 V=242 B=242</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>242</xmpG:red>
+                           <xmpG:green>242</xmpG:green>
+                           <xmpG:blue>242</xmpG:blue>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Groupe de couleurs Web</xmpG:groupName>
+                  <xmpG:groupType>1</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=63 V=169 B=245</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>63</xmpG:red>
+                           <xmpG:green>169</xmpG:green>
+                           <xmpG:blue>245</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=122 V=201 B=67</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>122</xmpG:red>
+                           <xmpG:green>201</xmpG:green>
+                           <xmpG:blue>67</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=255 V=147 B=30</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>147</xmpG:green>
+                           <xmpG:blue>30</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=255 V=29 B=37</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>29</xmpG:green>
+                           <xmpG:blue>37</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=255 V=123 B=172</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>255</xmpG:red>
+                           <xmpG:green>123</xmpG:green>
+                           <xmpG:blue>172</xmpG:blue>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>R=189 V=204 B=212</xmpG:swatchName>
+                           <xmpG:mode>RGB</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:red>189</xmpG:red>
+                           <xmpG:green>204</xmpG:green>
+                           <xmpG:blue>212</xmpG:blue>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+      </rdf:Description>
+      <rdf:Description rdf:about=""
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <pdf:Producer>Adobe PDF library 10.01</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj3 0 obj<</Count 1/Kids[5 0 R]/Type/Pages>>endobj5 0 obj<</ArtBox[0.0 0.0 590.0 254.0]/BleedBox[0.0 0.0 590.0 255.0]/Contents 6 0 R/Group 7 0 R/MediaBox[0.0 0.0 590.0 255.0]/Parent 3 0 R/Resources<</ExtGState<</GS0 8 0 R/GS1 9 0 R/GS2 10 0 R>>/Font<</T1_0 11 0 R/T1_1 12 0 R>>/ProcSet[/PDF/Text]/Properties<</MC0 13 0 R/MC1 14 0 R/MC2 15 0 R/MC3 16 0 R/MC4 17 0 R/MC5 18 0 R/MC6 19 0 R/MC7 20 0 R>>/XObject<</Fm0 21 0 R/Fm1 22 0 R/Fm2 23 0 R/Fm3 24 0 R/Fm4 25 0 R/Fm5 26 0 R>>>>/TrimBox[0.0 0.0 590.0 255.0]/Type/Page>>endobj6 0 obj<</Filter/FlateDecode/Length 1508>>stream
+Hâ‹WKo‹FæÎWÃ—.†Ÿ!9ú«—Ø.‚C‚Ezhä"pÛpa7à4»øÔ«ë÷^iΩNc‰¥óïñ‚Î#9‘ß≈Û7ﬂﬁﬁ∫≈˘Qpá«GÆæ9¸™‚∑jv∑Ôª≈ÈEpÔ?w¡ß58÷ËnﬂvÔ∫ìsò,Ó|–‡cqp˝Â‡¨òÑI”õ)ÀËSg˛¥˘ÌÌésˇ¥X¡Çr‘n…Qü(D¸πºi
+7e_¨2NN≥HôBˆ%„J¡ÁPIÒZ´ªÏà´gJébıT°@G∞‰ä©z)¯üÿ'5Œ—kÄEû≥:)ÍìiD$äãR}N—ô√a·2ó‰D|$<Wıï}ïÏb"è‡°ãI<ã¡πÓ"® x∏¨êπìË…≈H>"yH(òIÅ´lπ™≥†TˆQ,u‘¬.»ªäaFBlëaD.^ê))˘ÄÄ˘Úã¡ã(Ùë0@µåöí∂
+¡:Eã|®⁄“ˇÄx—ë5f÷ßú}äV3ÙAeΩk#Vr=Y¨‚zî(	|b“ò _êRœ(-juŸıå
+D<·‰C◊£"ôc≥∞j˜í[Æ}≈ÿ&3 
+B“=ÉcÙ†∂9¸¢Ch„éQZÙF—™~»Æ%WñÀq≈óß;
+ÒCwê˜ÿ∏ T-∞…åâ—-ÿÍ√ÿË.á∂ßA„Zz
+¥≤÷=ZuO‹W∑õ0Áåf,iÄñ*VÃOÖ&C”;h˙¥¸√º;4Ì‡¡úwPë	cÛCã}M∂˜◊°ÈZ°ÒM6†m€/:`ãèÁ∏^tt[ß–d,oˆoa˝z—.Ôâ bI»ÂªéÌù¢“#(ÂxYâ$ 'L§ΩìYêˆÚ¶€;⁄_˛›Ö@Xóu{ß&ÍAQRKCÛ ~fb≤•Ç®âèM|≤‹J©÷^_D©ö0)2Å†Ä Ä_‡ík;5o∫ê[«r¥“Ωc@ı4ÇA8(Qi|ÑûåY0£¯f¡®Øä6∆í—ß¿Ü…ÿK
+>xIÃ÷+I®ìU~qëå ÉQ¿ml≥H∆,Ò¿û$˜Å
+¡∏VÊ Ä∂à\ÔS±÷¬c;•
+x;À≠∂ÇT§,H∞Ça∫rn‰	†Pbc±UÇ&Åä%≤‘¢èÿ,‡t‡dÿ˙fÛ13(h„M–{î6±≤`ÖÑ`˜ùAã#ˆâùõ¥Emâa, 82¸◊ÿF]@ﬂâõ(1Ï ~v∂j£nΩ"îﬂkiªˇ{∂q2Çå‡™ÿ¨+Øch£∫…ÿ∞-\7$÷Ú¢«	”nÄõØiQäv:g¢`ÖLqï=X˙`e
+,ˇ`nÈ]AµAã4·ã«æ≈Ï∏
+ß«qÕ`ÒVXu:Öi+ﬁ¡¢ó˛‰nÌ
+™
+ÑlTaÅ!T¡Ú|÷ï<uc‘Ÿ#(ûÅäﬂm’N@ö˜â2^®„Ö§r‹XÌSPO^Ì´ÒÀ≥Ò{ jPïÕ˜÷ŒÅZ£©ÎÏ4ÅdÇéu¨˘Ò≤S,H4¸≠Zx#ßç[⁄kÃ™±5#ú&g≈$∞Ó&;eV"0∞‘Ñá£ui4PÓY,Í9î}ºáRj8¡·8hK†≈
+Êî›Úxtπˆø±ÁÂ/c¶kNVûÕú~è.CVzAÓ˝ÁnÒÏ&∏„è6%s9mëÛLŒ£\∂»„πÚy*]~®tœﬂÃê_\5Å2∑º¥9hw_›öŒÒ«U›^æ•— ì<ÿ›ƒ‡º9µGÿ]Poæ∫V˚1ìOÌ~ﬂªÿÔ”ﬁ«Î˝?ñøﬁ”b√I´qmq¡áN>2Fã0˘ÜÓjìp™∞Vï€pùΩ2)»8é·Kpπ≥·´UjüO&m™8KQ´Aì:LÚøWÉ6„¨L§WC<Lq¥’åœ»8j_ΩÊ∆ô:9?r›‚˘õooo›‚¸(∫√c\98+&—A“Ùf iC9œïˇ` m5ûª
+endstreamendobj7 0 obj<</CS/DeviceRGB/I false/K false/S/Transparency>>endobj21 0 obj<</BBox[130.554 195.495 365.28 4.78857]/Group 27 0 R/Length 3108/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>>>/Subtype/Form>>stream
+0.106 0 0.31 rg
+/GS0 gs
+q 1 0 0 1 352.376 108.582 cm
+0 0 m
+0.967 0 0.967 1.5 0 1.5 c
+-0.967 1.5 -0.967 0 0 0 c
+f
+Q
+0.475 0.086 0.976 rg
+q 1 0 0 1 350.377 155.939 cm
+0 0 m
+-0.519 0.291 l
+-65.288 35.322 l
+-65.008 35.14 l
+-73.041 39.85 -83.02 40.117 -91.287 35.778 c
+-198.501 -22.379 l
+-201.242 -23.571 -203.834 -25.235 -206.149 -27.387 c
+-211.754 -32.598 -214.65 -39.626 -214.786 -46.72 c
+-219.072 -122.378 l
+-218.948 -122.112 l
+-219.311 -129.175 -216.772 -136.371 -211.576 -141.959 c
+-203.171 -151.001 -190.377 -153.116 -179.377 -147.826 c
+-179.377 -147.939 l
+-179.696 -147.939 l
+-179.013 -146.939 -178.34 -147.11 -177.681 -146.704 c
+-1.329 -48.515 l
+1.999 -46.635 l
+3.283 -45.798 4.518 -44.833 5.677 -43.754 c
+16.64 -33.561 17.265 -16.403 7.072 -5.441 c
+4.975 -3.184 2.571 -1.377 0 0 c
+f
+Q
+0.106 0 0.31 rg
+q 1 0 0 1 350.7554 156.5864 cm
+0 0 m
+-21.57 12.105 -43.531 23.555 -65.288 35.322 c
+-66.143 35.784 -66.854 34.552 -66.045 34.027 c
+-65.765 33.845 l
+-65.513 34.277 -65.261 34.708 -65.008 35.14 c
+-73.444 39.749 -83.599 40.359 -92.195 35.696 c
+-94.553 34.417 -96.911 33.139 -99.268 31.86 c
+-111.09 25.447 -122.912 19.034 -134.734 12.622 c
+-156.192 0.982 -177.649 -10.657 -199.106 -22.296 c
+-209.544 -27.958 -215.281 -36.198 -215.96 -48.188 c
+-216.401 -55.972 -216.843 -63.756 -217.284 -71.54 c
+-218.256 -88.702 -219.229 -105.864 -220.201 -123.025 c
+-220.242 -123.749 -219.12 -124.081 -218.803 -123.404 c
+-218.762 -123.315 -218.72 -123.227 -218.679 -123.138 c
+-219.145 -123.012 -219.61 -122.885 -220.076 -122.759 c
+-220.58 -144.057 -198.902 -158.039 -179.698 -149.007 c
+-178.999 -148.679 -179.37 -147.61 -180.076 -147.61 c
+-180.077 -147.61 l
+-179.951 -148.076 -179.824 -148.542 -179.698 -149.007 c
+-164.507 -141.412 -149.869 -132.409 -135.032 -124.153 c
+-107.014 -108.562 -78.995 -92.971 -50.976 -77.379 c
+-35.651 -68.852 -20.327 -60.324 -5.001 -51.797 c
+0.059 -48.98 5.272 -46.418 8.838 -41.624 c
+19.155 -27.748 14.976 -8.531 0 0 c
+-0.842 0.479 -1.597 -0.816 -0.757 -1.295 c
+12.141 -8.643 16.781 -24.259 9.851 -37.404 c
+7.001 -42.809 2.256 -46.042 -2.894 -48.907 c
+-9.001 -52.306 -15.108 -55.704 -21.216 -59.103 c
+-47.282 -73.607 -73.348 -88.112 -99.414 -102.617 c
+-117.999 -112.958 -136.583 -123.299 -155.167 -133.641 c
+-163.566 -138.314 -171.854 -143.412 -180.455 -147.712 c
+-181.141 -148.055 -180.793 -149.11 -180.077 -149.11 c
+-180.076 -149.11 l
+-180.202 -148.644 -180.329 -148.178 -180.455 -147.712 c
+-198.666 -156.276 -219.052 -142.857 -218.576 -122.759 c
+-218.559 -122.045 -219.651 -121.691 -219.974 -122.381 c
+-220.015 -122.469 -220.057 -122.558 -220.098 -122.647 c
+-219.632 -122.773 -219.167 -122.899 -218.701 -123.025 c
+-217.331 -98.854 -215.961 -74.682 -214.592 -50.511 c
+-214.115 -42.088 -212.289 -34.771 -205.997 -28.565 c
+-202.938 -25.548 -198.709 -23.787 -194.939 -21.742 c
+-163.44 -4.656 l
+-110.924 23.831 l
+-105.454 26.798 -99.984 29.766 -94.514 32.733 c
+-85.271 37.747 -75.466 39.144 -65.765 33.845 c
+-64.912 33.379 -64.2 34.615 -65.008 35.14 c
+-65.288 35.322 l
+-65.541 34.89 -65.792 34.458 -66.045 34.027 c
+-44.289 22.26 -22.327 10.81 -0.757 -1.295 c
+0.087 -1.769 0.844 -0.473 0 0 c
+f
+Q
+
+endstreamendobj22 0 obj<</BBox[305.668 196.679 539.794 4.62891]/Group 28 0 R/Length 3080/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>>>/Subtype/Form>>stream
+0 0.078 0.408 rg
+/GS0 gs
+q 1 0 0 1 500.4014 7.1841 cm
+0 0 m
+0.968 0 0.968 1.5 0 1.5 c
+-0.968 1.5 -0.968 0 0 0 c
+f
+Q
+0.086 0.725 0.976 rg
+q 1 0 0 1 539.0303 34.085 cm
+0 0 m
+-0.024 0.595 l
+-4.179 74.113 l
+-4.187 73.78 l
+-4.391 83.088 -9.397 91.725 -17.43 96.488 c
+-123.187 157.254 l
+-125.639 158.963 -128.415 160.297 -131.462 161.138 c
+-138.839 163.176 -146.343 161.954 -152.453 158.349 c
+-219.111 122.308 l
+-218.82 122.342 l
+-225.023 118.945 -229.902 113.146 -231.934 105.791 c
+-235.221 93.891 -230.034 81.658 -220.024 75.496 c
+-220.024 75.497 l
+-220.022 75.495 l
+-219.371 75.094 -218.702 74.715 -218.01 74.367 c
+-41.951 -24.29 l
+-38.629 -26.151 l
+-37.243 -26.805 -35.788 -27.356 -34.26 -27.778 c
+-19.83 -31.765 -4.902 -23.299 -0.916 -8.87 c
+-0.096 -5.9 0.178 -2.912 0 0 c
+f
+Q
+0 0.286 0.4 rg
+q 1 0 0 1 539.7803 34.085 cm
+0 0 m
+-1.014 24.714 -2.783 49.417 -4.179 74.113 c
+-4.233 75.074 -5.653 75.085 -5.679 74.113 c
+-5.682 74.002 -5.685 73.891 -5.687 73.78 c
+-4.187 73.78 l
+-4.653 83.281 -9.437 92.329 -17.839 97.157 c
+-19.902 98.342 -21.965 99.528 -24.028 100.713 c
+-35.424 107.261 -46.819 113.809 -58.216 120.357 c
+-79.885 132.808 -101.555 145.259 -123.225 157.71 c
+-133.467 163.595 -143.509 164.443 -154.116 158.708 c
+-160.764 155.114 -167.411 151.52 -174.058 147.925 c
+-189.452 139.602 -204.846 131.278 -220.24 122.955 c
+-220.862 122.619 -220.619 121.469 -219.861 121.558 c
+-219.764 121.569 -219.667 121.581 -219.57 121.592 c
+-219.696 122.058 -219.823 122.523 -219.949 122.989 c
+-238.328 112.298 -238.914 86.46 -221.153 74.849 c
+-220.669 74.532 -220.024 74.949 -220.024 75.496 c
+-220.024 75.497 l
+-220.4 75.281 -220.777 75.065 -221.153 74.849 c
+-217.172 71.863 -212.06 69.753 -207.744 67.335 c
+-197.35 61.51 -186.955 55.686 -176.561 49.861 c
+-148.589 34.186 -120.616 18.512 -92.645 2.837 c
+-77.345 -5.736 -62.046 -14.309 -46.746 -22.882 c
+-41.731 -25.692 -36.847 -28.777 -30.947 -29.327 c
+-13.627 -30.939 0.51 -17.284 0 0 c
+-0.028 0.965 -1.528 0.968 -1.5 0 c
+-1.06 -14.939 -11.925 -27.149 -26.916 -28 c
+-32.913 -28.341 -38.067 -26.026 -43.129 -23.19 c
+-49.227 -19.773 -55.323 -16.357 -61.42 -12.94 c
+-87.443 1.642 -113.466 16.224 -139.489 30.807 c
+-158.042 41.203 -176.596 51.6 -195.149 61.997 c
+-200.957 65.25 -206.764 68.505 -212.571 71.759 c
+-215.067 73.158 -218.095 74.418 -220.396 76.144 c
+-220.867 76.498 -221.524 76.016 -221.524 75.497 c
+-221.524 75.496 l
+-221.148 75.712 -220.772 75.928 -220.396 76.144 c
+-237.224 87.146 -236.568 111.586 -219.192 121.694 c
+-218.59 122.044 -218.798 123.183 -219.57 123.092 c
+-219.667 123.081 -219.764 123.069 -219.861 123.058 c
+-219.735 122.592 -219.609 122.126 -219.483 121.66 c
+-155.594 156.204 l
+-147.678 160.484 -139.955 162.733 -130.911 159.954 c
+-127.272 158.836 -123.798 156.309 -120.457 154.389 c
+-88.91 136.263 l
+-71.688 126.368 -54.467 116.472 -37.244 106.577 c
+-31.872 103.49 -26.499 100.403 -21.127 97.316 c
+-12.205 92.189 -6.21 84.442 -5.687 73.78 c
+-5.641 72.817 -4.213 72.81 -4.187 73.78 c
+-4.185 73.891 -4.182 74.002 -4.179 74.113 c
+-5.679 74.113 l
+-4.283 49.417 -2.514 24.714 -1.5 0 c
+-1.46 -0.964 0.04 -0.968 0 0 c
+f
+Q
+
+endstreamendobj23 0 obj<</BBox[203.827 195.635 464.035 74.1865]/Group 29 0 R/Length 2939/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>>>/Subtype/Form>>stream
+0 0.078 0.408 rg
+/GS0 gs
+q 1 0 0 1 438.6621 77.4497 cm
+0 0 m
+0.968 0 0.968 1.5 0 1.5 c
+-0.968 1.5 -0.968 0 0 0 c
+f
+Q
+0.082 0.231 0.988 rg
+q 1 0 0 1 458.9209 120.2202 cm
+0 0 m
+-0.32 0.502 l
+-40.854 61.979 l
+-40.692 61.686 l
+-45.547 69.631 -54.216 74.582 -63.553 74.664 c
+-185.522 74.063 l
+-188.501 74.307 -191.572 74.065 -194.628 73.262 c
+-202.031 71.317 -207.904 66.49 -211.375 60.304 c
+-250.898 -4.352 l
+-250.664 -4.177 l
+-254.32 -10.23 -255.501 -17.696 -253.562 -25.076 c
+-250.426 -37.016 -239.921 -44.955 -227.921 -45.252 c
+-227.921 -45.22 l
+-228.165 -45.22 l
+-227.4 -45.22 -226.63 -45.262 -225.858 -45.216 c
+-24.065 -42.064 l
+-20.259 -42.013 l
+-18.731 -41.881 -17.196 -41.631 -15.663 -41.228 c
+-1.185 -37.424 7.469 -22.605 3.665 -8.127 c
+2.882 -5.147 1.617 -2.429 0 0 c
+f
+Q
+0 0.078 0.408 rg
+q 1 0 0 1 459.5684 120.5986 cm
+0 0 m
+-13.297 20.857 -27.237 41.328 -40.854 61.979 c
+-41.383 62.782 -42.618 62.075 -42.148 61.222 c
+-42.095 61.124 -42.041 61.026 -41.987 60.929 c
+-41.556 61.182 -41.124 61.434 -40.692 61.686 c
+-45.87 69.666 -54.554 75.083 -64.244 75.036 c
+-66.623 75.024 -69.002 75.012 -71.382 75 c
+-84.524 74.936 -97.667 74.871 -110.81 74.806 c
+-135.802 74.683 -160.793 74.559 -185.785 74.436 c
+-197.656 74.377 -206.71 70.055 -212.987 59.785 c
+-216.929 53.338 -220.87 46.89 -224.812 40.442 c
+-233.939 25.511 -243.066 10.58 -252.193 -4.352 c
+-252.564 -4.958 -251.789 -5.842 -251.167 -5.378 c
+-251.089 -5.32 -251.011 -5.261 -250.933 -5.203 c
+-251.958 -4.177 l
+-262.421 -22.726 -250.041 -45.341 -228.813 -46.412 c
+-228.813 -44.912 l
+-228.814 -44.912 l
+-229.781 -44.912 -229.781 -46.412 -228.814 -46.412 c
+-179.731 -46.412 -130.599 -44.871 -81.522 -44.1 c
+-63.987 -43.825 -46.451 -43.55 -28.915 -43.274 c
+-23.168 -43.184 -17.395 -43.396 -12.019 -40.907 c
+3.702 -33.628 9.2 -14.634 0 0 c
+-0.514 0.816 -1.812 0.064 -1.295 -0.757 c
+6.375 -12.958 3.567 -28.458 -8.093 -37.004 c
+-13.283 -40.808 -19.282 -41.623 -25.491 -41.721 c
+-32.313 -41.828 -39.135 -41.935 -45.956 -42.042 c
+-75.666 -42.508 -105.376 -42.975 -135.087 -43.441 c
+-166.315 -43.931 -197.582 -44.912 -228.814 -44.912 c
+-229.781 -44.912 -229.781 -46.412 -228.814 -46.412 c
+-228.813 -46.412 l
+-227.841 -46.412 -227.853 -44.96 -228.813 -44.912 c
+-248.891 -43.899 -260.562 -22.482 -250.664 -4.934 c
+-250.321 -4.326 -251.055 -3.434 -251.689 -3.908 c
+-251.768 -3.966 -251.846 -4.024 -251.924 -4.083 c
+-250.898 -5.109 l
+-238.271 15.548 -225.644 36.204 -213.017 56.861 c
+-208.912 63.578 -204.293 68.991 -196.536 71.733 c
+-191.945 73.357 -186.931 72.93 -182.118 72.954 c
+-170.173 73.013 -158.229 73.072 -146.284 73.131 c
+-126.106 73.23 -105.929 73.33 -85.751 73.429 c
+-79.555 73.46 -73.358 73.49 -67.162 73.521 c
+-56.872 73.572 -47.799 69.883 -41.987 60.929 c
+-41.463 60.121 -40.223 60.834 -40.692 61.686 c
+-40.746 61.784 -40.8 61.881 -40.854 61.979 c
+-41.285 61.726 -41.717 61.474 -42.148 61.222 c
+-28.533 40.571 -14.592 20.101 -1.295 -0.757 c
+-0.777 -1.57 0.521 -0.818 0 0 c
+f
+Q
+
+endstreamendobj24 0 obj<</BBox[160.835 201.057 204.943 159.661]/Group 30 0 R/Length 132/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>/Font<</T1_0 11 0 R>>/ProcSet[/PDF/Text]>>/Subtype/Form>>stream
+BT
+0.475 0.086 0.976 rg
+/GS0 gs
+/T1_0 1 Tf
+0 Tc 0 Tw 0 Ts 100 Tz 0 Tr 37.8845 -0.1853 0.1853 37.8845 160.8813 169.3472 Tm
+(SD)Tj
+ET
+
+endstreamendobj25 0 obj<</BBox[330.534 242.289 349.639 201.016]/Group 31 0 R/Length 131/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>/Font<</T1_0 11 0 R>>/ProcSet[/PDF/Text]>>/Subtype/Form>>stream
+BT
+0.082 0.231 0.988 rg
+/GS0 gs
+/T1_0 1 Tf
+0 Tc 0 Tw 0 Ts 100 Tz 0 Tr 37.8845 -0.1853 0.1853 37.8845 330.6175 210.5792 Tm
+(T)Tj
+ET
+
+endstreamendobj26 0 obj<</BBox[470.555 210.006 495.987 168.702]/Group 32 0 R/Length 130/Matrix[1.0 0.0 0.0 1.0 0.0 0.0]/Resources<</ExtGState<</GS0 8 0 R>>/Font<</T1_0 11 0 R>>/ProcSet[/PDF/Text]>>/Subtype/Form>>stream
+BT
+0.086 0.725 0.976 rg
+/GS0 gs
+/T1_0 1 Tf
+0 Tc 0 Tw 0 Ts 100 Tz 0 Tr 37.8845 -0.1853 0.1853 37.8845 470.6009 178.296 Tm
+(D)Tj
+ET
+
+endstreamendobj32 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj11 0 obj<</BaseFont/KZSLOE+MyriadPro-Regular/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 33 0 R/LastChar 233/Subtype/Type1/Type/Font/Widths[212 0 0 497 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 612 542 580 666 492 487 646 0 0 0 0 472 804 0 0 0 0 538 493 497 0 0 0 0 0 0 0 0 0 0 0 0 482 0 0 0 0 0 0 0 234 0 0 236 0 0 549 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 501]>>endobj33 0 obj<</Ascent 952/CapHeight 674/CharSet(/space/numbersign/A/B/C/D/E/F/G/L/M/R/S/T/a/i/l/o/eacute)/Descent -250/Flags 32/FontBBox[-157 -250 1126 952]/FontFamily(Myriad Pro)/FontFile3 34 0 R/FontName/KZSLOE+MyriadPro-Regular/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 88/Type/FontDescriptor/XHeight 484>>endobj34 0 obj<</Filter/FlateDecode/Length 1701/Subtype/Type1C>>stream
+Hâ|SiTWÆÍ¶
+Le§S®]ôÆäçLXdó3 „d‘®hËqâìƒ4tI∑≤Ÿ›¨j¬ëéç®∏ç®= ⁄!«`hó¡ÉÒ>rf™€?˘5Áùsœ˜Ω˚ÓΩﬂªÔ>sí`8é/⁄∞U£äZ˝ˆ{ôFÉVß6&{«Ò©	Z£›…
+.,t^w£ë*}Ò‚ÖäÄÓWab~«Î‰swLÇ„#SÔ$ßà±Òz3ÁÍÔe∑Å‚≈˘/_æ‹aπU∫‰Xû”döÃ|¢â[óólLI6jÕºŒá[ïê¿9Rò8#o‚çiˆÕóä8Éâ„f=o‰¥¢3ﬁ ∆yg6ju|¢÷∏ìK∂{~C∑ˇüRú!âsqìv¶1ãõ&Nõ§Û≥$;™ƒ%ß&ôçﬁ‰„ªFÛ∑Ãû[¡È¯ÌÜãs¬∞≈$ÊçcÏ/∂√ﬁ√05Üıaÿkb?Eâ];óä_ëÃóÑJﬁó¥I,“iÉ9y88˝À©üêôaE◊ÑG◊p—æyMZ‰$‰œ™ÁÚI(E]4Z	ï< á:h∞ìπ
+Á9Ú#ÜïH‰§pù∂#dgz,∂t√ín–§„gÑ0)®°í>Kà2-!ã*ÈFÿ"“]hqì¥„üªÉ»:Ò»dw(˘%hµË”Jév`/ıèéÂÍ{é8™Y¨£ÔÉ˛·¢t˜/Ö[≤a!ÙÙ “¢⁄¨Ÿ`b1â2&&»~–u}t/l&dæh´j;tŒ•Ñ<§;W≥≠mZHmœÌÉÍ^0›qÉT€ªS≤gC%tﬁ…Ky7êΩpômiÆøÿ%ˇœü;6‘*Júe¬@„Öoz‰iÁÙçä≠¶&êâå =¿≥cj∫¥∫æÙcªô∂~„ﬂ}Ÿ0rù” ){ˆÛÔÎπbá_Ç±∏4ã•äs¨¬%+ﬁ:%'È,˝∆ÏMZ·ıÑ¬Íg”‡„Úæ›ÕÏ±‚sÛ¶∫ÒH)Æx¥î»bÓ˝ª∂ˆ+ñÀÌ.|ãç	ÆìRQÛßØÁﬂf`¡Lã≈¬Zn∑LÄD∏˛ª®NEß⁄ˇ$öœ¨QÂÿƒém†÷∑îµ3†öXä
+Y¥~©Evó•*®¿"+‰Ç¡*&ñ
+·¬B’ÄNYÁ∞_ÉÖW≠®Ú†Ü§|≈'Ë≥„‹ê«tAÂ ™3ú¥¢ˇí‘ùBr?TÿØ)∏›ó
+?¬sW√–ádN∫Ó@É¸ﬁúÜ˛VÙµ≤ª’~ÂÍ§»√·JC
+Ù˙∞ê]‹Í◊•Q®zGw=e&áÎ´øf)Æ»*<NYWpµ¢6·q IAjÃ{+MsÔö˝´,e÷”„>©gII‰ÜFŸôƒ`”™¨µ.˘dVø˘nÚ»Fä^Y ‚¨¸ ·˘ÚÈÉ@îå.*!è¸ÈD‡W^.≤3Ä£ªD/	Æ}ÀÉé÷è,*%C q–€Öäª–ﬁwD5ê˚≤Ì˜»ë¸V˝Qü#!5—U.‰ﬁ∆›=©?ÌÓO∏≤πŒ•‘y†·F˜∏¸z∆%√)≈Ym‘a&JıÈ˛mÏX$]V}™Ï<3Uh·Â+’[|˛$î3(\ƒoÿ q\zæô6µdÙ00<1Û$∫ëYü÷ÿ&ã¸“ÈŒ©[ÌÈ˚é+à√âÔ◊Æa–Ç¿≈^}1 —±ì˙÷xï|ÌÊ¸£bé6Ëˆœ*<∫ã√«6)|ÏaAÏ›πºU†%©?f˜ÏHÉ¢[@ı∏ü∂ÅˆælèÍë€\–v^Îú≈O£eë—Yª‚G£â„-ó´€ô'UÔƒ±9Œ(™XπÕìÀÆÆæ∂ÊÒ∑◊[ŒûPîí≤=ëƒ'BÀÆÓ/»…ﬂØà›ßb>‚O|Û‡á∞z, …H
+∏˚m¿=m≤‰!dÃe8À¶/ŒÜ–;Õ¶Ñƒ„¶¶”«N≤Mi;zx,mvk:nµI≠∂Ÿ≠$ïò›+º“ãüáÀRh–H˛Ü
+Fﬁ”o√òøˇ÷¬2Ôiƒ≤ÎËô6e(¬Ua!Aëﬂˇ2’˛pÜ•¬s˙ ÃJK'(Ò≥£P%o,§—≈üïT◊…«µ¿"ÙFrFK—“qOÓ®≠nRÏ±{wŸ*& ‚*∏∞≈˙V≈◊˜∆ô'ÅöB6BXF %a!Å%AeWA^9Ï´ﬂ™/>o®"_’^ﬁX.∏ñCDπ≥‚XÏ6∑yEnÆw^±π⁄ ‹~˙◊Ñ!˙ ,ïaŸ
+endstreamendobj8 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj31 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj30 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj29 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj28 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj27 0 obj<</I false/K false/S/Transparency/Type/Group>>endobj13 0 obj<</Color[20224 20224 65535]/Dimmed false/Editable false/Preview true/Printed true/Title(fond)/Visible true>>endobj14 0 obj<</Color[20224 32768 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(cycle des quintes - copie)/Visible false>>endobj15 0 obj<</AIType/HiddenLayer/Contents 35 0 R/Resources<</ExtGState<</GS0 36 0 R>>/Font<</T1_0 11 0 R>>/ProcSet[/PDF/Text]>>>>endobj16 0 obj<</Color[20224 32768 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(cycle des quintes - copie 3)/Visible true>>endobj17 0 obj<</Color[20224 32768 65535]/Dimmed false/Editable false/Preview true/Printed true/Title(cycle des quintes - copie 2)/Visible false>>endobj18 0 obj<</AIType/HiddenLayer/Contents 37 0 R/Resources<</ExtGState<</GS0 38 0 R>>>>>>endobj19 0 obj<</Color[65535 20224 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(Calque 5)/Visible false>>endobj20 0 obj<</AIType/HiddenLayer/Contents 39 0 R/Resources<<>>>>endobj39 0 obj<</Length 0>>stream
+
+endstreamendobj37 0 obj<</Length 13904>>stream
+q
+0 255 590 -255 re
+W n
+1 1 1 rg
+/GS0 gs
+q 1 0 0 1 308.71 76.3569 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 414.3555 129.2119 cm
+0 0 m
+-10.396 0 -18.855 -8.458 -18.855 -18.855 c
+-18.855 -29.251 -10.396 -37.71 0 -37.71 c
+10.396 -37.71 18.854 -29.251 18.854 -18.855 c
+18.854 -8.458 10.396 0 0 0 c
+0 -38.71 m
+-10.948 -38.71 -19.855 -29.803 -19.855 -18.855 c
+-19.855 -7.907 -10.948 1 0 1 c
+10.948 1 19.854 -7.907 19.854 -18.855 c
+19.854 -29.803 10.948 -38.71 0 -38.71 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 553.71 79.3569 cm
+0 0 m
+0 -10.689 -8.665 -19.355 -19.354 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.354 19.355 c
+-8.665 19.355 0 10.689 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 419.4043 101.5146 cm
+0 0 m
+-0.829 -0.415 -2.488 -0.83 -4.614 -0.83 c
+-9.54 -0.83 -13.247 2.281 -13.247 8.011 c
+-13.247 13.481 -9.54 17.188 -4.122 17.188 c
+-1.944 17.188 -0.57 16.722 0.026 16.41 c
+-0.519 14.57 l
+-1.374 14.984 -2.593 15.295 -4.044 15.295 c
+-8.141 15.295 -10.862 12.677 -10.862 8.088 c
+-10.862 3.811 -8.399 1.063 -4.147 1.063 c
+-2.773 1.063 -1.374 1.348 -0.467 1.789 c
+h
+f
+Q
+q 1 0 0 1 539.3691 71.478 cm
+0 0 m
+-1.011 -0.363 -3.007 -0.959 -5.366 -0.959 c
+-8.011 -0.959 -10.188 -0.285 -11.899 1.348 c
+-13.403 2.8 -14.336 5.133 -14.336 7.855 c
+-14.311 13.066 -10.732 16.877 -4.874 16.877 c
+-2.852 16.877 -1.271 16.436 -0.519 16.073 c
+-1.062 14.232 l
+-1.996 14.647 -3.163 14.984 -4.926 14.984 c
+-9.177 14.984 -11.951 12.34 -11.951 7.959 c
+-11.951 3.526 -9.281 0.907 -5.211 0.907 c
+-3.733 0.907 -2.722 1.115 -2.203 1.374 c
+-2.203 6.585 l
+-5.755 6.585 l
+-5.755 8.399 l
+0 8.399 l
+h
+f
+Q
+q 1 0 0 1 285.2358 84.1851 cm
+0 0 m
+9.411 0 l
+9.411 -1.893 l
+2.255 -1.893 l
+2.255 -7.7 l
+8.866 -7.7 l
+8.866 -9.566 l
+2.255 -9.566 l
+2.255 -17.473 l
+0 -17.473 l
+h
+f
+Q
+q 1 0 0 1 270.5 76.3569 cm
+0 0 m
+0 10.396 8.458 18.855 18.855 18.855 c
+27.153 18.855 34.202 13.459 36.715 5.998 c
+37.016 6.145 37.32 6.285 37.621 6.431 c
+34.94 14.228 27.55 19.855 18.855 19.855 c
+7.907 19.855 -1 10.948 -1 0 c
+-1 -5.117 0.962 -9.772 4.152 -13.296 c
+4.426 -13.103 4.696 -12.904 4.971 -12.712 c
+1.895 -9.356 0 -4.9 0 0 c
+f
+Q
+q 1 0 0 1 308.21 76.3569 cm
+0 0 m
+0 -10.396 -8.458 -18.855 -18.855 -18.855 c
+-23.621 -18.855 -27.966 -17.063 -31.29 -14.137 c
+-31.569 -14.331 -31.843 -14.534 -32.122 -14.729 c
+-28.601 -17.904 -23.958 -19.855 -18.855 -19.855 c
+-7.907 -19.855 1 -10.948 1 0 c
+1 1.543 0.806 3.039 0.471 4.481 c
+0.166 4.333 -0.143 4.191 -0.447 4.042 c
+-0.161 2.738 0 1.388 0 0 c
+f
+Q
+q 1 0 0 1 433.3574 106.7227 cm
+0 0 m
+-0.127 -0.67 -0.285 -1.329 -0.479 -1.972 c
+28.403 -4.133 56.122 -11.451 81.607 -23.135 c
+81.752 -22.471 81.932 -21.82 82.142 -21.183 c
+56.624 -9.525 28.892 -2.202 0 0 c
+f
+Q
+q 1 0 0 1 351.5571 99.0088 cm
+0 0 m
+-15.128 -4.075 -29.647 -9.525 -43.437 -16.221 c
+-43.218 -16.857 -43.03 -17.507 -42.876 -18.171 c
+-29.106 -11.459 -14.599 -6.004 0.521 -1.931 c
+14.906 1.944 29.565 4.48 44.296 5.66 c
+44.099 6.302 43.939 6.96 43.809 7.629 c
+29.066 6.428 14.397 3.879 0 0 c
+f
+Q
+q 1 0 0 1 275.4707 63.6445 cm
+0 0 m
+-0.274 -0.192 -0.545 -0.391 -0.819 -0.583 c
+-0.364 -1.086 0.114 -1.563 0.617 -2.017 c
+0.896 -1.821 1.17 -1.619 1.45 -1.424 c
+0.94 -0.976 0.458 -0.5 0 0 c
+f
+Q
+q 1 0 0 1 307.2153 82.3545 cm
+0 0 m
+0.215 -0.639 0.401 -1.29 0.547 -1.956 c
+0.852 -1.806 1.161 -1.665 1.466 -1.517 c
+1.312 -0.853 1.124 -0.203 0.905 0.433 c
+0.604 0.287 0.3 0.147 0 0 c
+f
+Q
+q 1 0 0 1 534.3555 99.2119 cm
+0 0 m
+-8.788 0 -16.25 -5.745 -18.856 -13.672 c
+-18.553 -13.811 -18.247 -13.944 -17.943 -14.084 c
+-15.499 -6.503 -8.383 -1 0 -1 c
+10.396 -1 18.854 -9.458 18.854 -19.855 c
+18.854 -24.52 17.142 -28.787 14.325 -32.082 c
+14.605 -32.268 14.888 -32.453 15.168 -32.64 c
+18.086 -29.182 19.854 -24.724 19.854 -19.855 c
+19.854 -8.907 10.948 0 0 0 c
+f
+Q
+q 1 0 0 1 534.3555 60.502 cm
+0 0 m
+-10.396 0 -18.855 8.458 -18.855 18.855 c
+-18.855 20.161 -18.721 21.436 -18.467 22.667 c
+-18.773 22.81 -19.084 22.945 -19.391 23.085 c
+-19.688 21.721 -19.855 20.308 -19.855 18.855 c
+-19.855 7.907 -10.948 -1 0 -1 c
+5.352 -1 10.206 1.138 13.779 4.592 c
+13.494 4.782 13.207 4.971 12.92 5.16 c
+9.542 1.971 5.002 0 0 0 c
+f
+Q
+q 1 0 0 1 516.4121 85.1279 cm
+0 0 m
+-0.304 0.14 -0.609 0.273 -0.913 0.412 c
+-1.123 -0.226 -1.303 -0.876 -1.447 -1.541 c
+-1.141 -1.681 -0.83 -1.816 -0.523 -1.959 c
+-0.387 -1.291 -0.207 -0.64 0 0 c
+f
+Q
+q 1 0 0 1 547.2754 65.6621 cm
+0 0 m
+0.287 -0.189 0.574 -0.378 0.859 -0.568 c
+1.346 -0.098 1.812 0.393 2.248 0.91 c
+1.968 1.097 1.686 1.282 1.405 1.468 c
+0.964 0.952 0.493 0.465 0 0 c
+f
+Q
+q 1 0 0 1 362.7485 57.4648 cm
+0 0 m
+17.088 4.604 34.641 6.937 52.169 6.937 c
+99.657 6.937 144.145 -9.951 179.062 -38.664 c
+179.417 -38.092 179.8 -37.545 180.207 -37.017 c
+144.959 -8.08 100.075 8.938 52.169 8.938 c
+34.465 8.938 16.737 6.581 -0.521 1.932 c
+-28.972 -5.733 -54.855 -19.207 -76.885 -37.462 c
+-76.477 -37.995 -76.098 -38.547 -75.745 -39.117 c
+-53.904 -20.984 -28.229 -7.604 0 0 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 542.5898 18.166 cm
+0 0 m
+-0.812 -1.333 -1.476 -2.783 -1.952 -4.334 c
+-5.003 -14.273 0.601 -24.842 10.539 -27.893 c
+12.345 -28.447 14.209 -28.729 16.08 -28.729 c
+19.685 -28.729 23.084 -27.722 25.98 -25.937 c
+18.112 -16.495 9.408 -7.816 0 0 c
+f
+Q
+q 1 0 0 1 570.2148 -6.6235 cm
+0 0 m
+2.992 2.32 5.294 5.545 6.474 9.388 c
+9.524 19.327 3.921 29.895 -6.018 32.946 c
+-7.823 33.5 -9.688 33.781 -11.559 33.781 c
+-17.568 33.781 -23 30.984 -26.484 26.439 c
+-16.887 18.48 -8.014 9.633 0 0 c
+f
+Q
+q 1 0 0 1 543.7305 19.8154 cm
+0 0 m
+-0.405 -0.528 -0.79 -1.075 -1.141 -1.649 c
+8.268 -9.465 16.972 -18.145 24.84 -27.587 c
+25.41 -27.236 25.956 -26.849 26.484 -26.439 c
+18.471 -16.806 9.598 -7.959 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 552.9824 -10.2051 cm
+0 0 m
+-10.218 3.137 -15.959 13.964 -12.822 24.183 c
+-12.325 25.804 -11.615 27.296 -10.765 28.674 c
+-10.899 28.786 -11.036 28.895 -11.172 29.006 c
+-12.06 27.571 -12.784 26.008 -13.3 24.33 c
+-16.513 13.864 -10.612 2.735 -0.146 -0.478 c
+1.754 -1.062 3.717 -1.357 5.687 -1.357 c
+9.531 -1.357 13.155 -0.274 16.23 1.649 c
+16.113 1.791 15.999 1.934 15.882 2.075 c
+11.297 -0.769 5.563 -1.708 0 0 c
+f
+Q
+q 1 0 0 1 564.3437 26.8003 cm
+0 0 m
+10.219 -3.137 15.959 -13.964 12.822 -24.183 c
+11.604 -28.149 9.22 -31.429 6.17 -33.789 c
+6.282 -33.925 6.393 -34.062 6.505 -34.198 c
+9.646 -31.756 12.061 -28.367 13.3 -24.33 c
+16.513 -13.864 10.612 -2.735 0.146 0.478 c
+-1.754 1.062 -3.717 1.357 -5.687 1.357 c
+-12.007 1.357 -17.719 -1.579 -21.389 -6.353 c
+-21.254 -6.463 -21.119 -6.571 -20.985 -6.682 c
+-16.199 -0.489 -7.925 2.433 0 0 c
+f
+Q
+q 1 0 0 1 542.2178 18.4692 cm
+0 0 m
+0.354 0.573 0.734 1.123 1.141 1.649 c
+1.007 1.76 0.872 1.868 0.737 1.979 c
+0.331 1.45 -0.053 0.904 -0.407 0.332 c
+-0.271 0.221 -0.135 0.111 0 0 c
+f
+Q
+q 1 0 0 1 552.9824 -10.2051 cm
+0 0 m
+5.563 -1.708 11.297 -0.769 15.882 2.075 c
+15.783 2.194 15.688 2.315 15.588 2.434 c
+12.691 0.649 9.292 -0.357 5.687 -0.357 c
+3.816 -0.357 1.952 -0.076 0.146 0.478 c
+-9.792 3.529 -15.396 14.098 -12.345 24.037 c
+-11.868 25.588 -11.205 27.038 -10.393 28.371 c
+-10.516 28.473 -10.641 28.572 -10.765 28.674 c
+-11.615 27.296 -12.325 25.804 -12.822 24.183 c
+-15.959 13.964 -10.218 3.137 0 0 c
+f
+Q
+q 1 0 0 1 558.6562 27.1577 cm
+0 0 m
+1.871 0 3.735 -0.281 5.541 -0.835 c
+15.479 -3.887 21.083 -14.455 18.032 -24.394 c
+16.853 -28.236 14.551 -31.461 11.559 -33.781 c
+11.659 -33.902 11.757 -34.025 11.857 -34.146 c
+14.907 -31.787 17.292 -28.507 18.51 -24.541 c
+21.646 -14.322 15.906 -3.495 5.687 -0.357 c
+-2.237 2.076 -10.512 -0.846 -15.298 -7.039 c
+-15.174 -7.141 -15.049 -7.24 -14.926 -7.342 c
+-11.441 -2.797 -6.01 0 0 0 c
+f
+Q
+q 1 0 0 1 543.7305 19.8154 cm
+0 0 m
+-0.123 0.102 -0.248 0.201 -0.372 0.303 c
+-0.778 -0.224 -1.158 -0.773 -1.513 -1.346 c
+-1.389 -1.448 -1.264 -1.547 -1.141 -1.649 c
+-0.79 -1.075 -0.405 -0.528 0 0 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 285.1001 19.3691 cm
+0 0 m
+-2.366 3.099 -5.615 5.393 -9.417 6.56 c
+-11.222 7.114 -13.086 7.395 -14.956 7.395 c
+-23.287 7.395 -30.527 2.04 -32.975 -5.932 c
+-35.366 -13.723 -32.425 -21.883 -26.262 -26.523 c
+-18.309 -16.836 -9.52 -7.969 0 0 c
+f
+Q
+q 1 0 0 1 260.5049 -8.2744 cm
+0 0 m
+1.271 -0.757 2.637 -1.393 4.112 -1.846 c
+5.917 -2.4 7.781 -2.682 9.652 -2.682 c
+17.982 -2.682 25.223 2.674 27.67 10.645 c
+29.148 15.459 28.663 20.562 26.304 25.011 c
+26.126 25.346 25.922 25.661 25.727 25.982 c
+16.409 18.167 7.799 9.481 0 0 c
+f
+Q
+q 1 0 0 1 258.8384 -7.1538 cm
+0 0 m
+0.532 -0.401 1.087 -0.775 1.667 -1.121 c
+9.466 8.361 18.076 17.046 27.393 24.861 c
+27.042 25.438 26.667 25.993 26.262 26.523 c
+16.742 18.554 7.953 9.687 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 251.6475 13.584 cm
+0 0 m
+3.137 10.219 13.964 15.96 24.183 12.823 c
+28.178 11.596 31.474 9.185 33.837 6.104 c
+33.963 6.209 34.09 6.314 34.216 6.418 c
+31.792 9.576 28.416 12.046 24.33 13.301 c
+22.429 13.884 20.466 14.18 18.497 14.18 c
+9.724 14.18 2.099 8.541 -0.478 0.147 c
+-2.035 -4.923 -1.523 -10.296 0.961 -14.981 c
+2.345 -17.591 4.264 -19.795 6.556 -21.522 c
+6.662 -21.391 6.767 -21.26 6.874 -21.129 c
+0.549 -16.367 -2.458 -8.006 0 0 c
+f
+Q
+q 1 0 0 1 270.1567 -11.9561 cm
+0 0 m
+8.772 0 16.397 5.639 18.974 14.033 c
+20.721 19.724 19.757 25.601 16.847 30.304 c
+16.719 30.199 16.592 30.093 16.465 29.987 c
+19.273 25.415 20.195 19.713 18.496 14.18 c
+15.359 3.961 4.532 -1.78 -5.687 1.357 c
+-7.226 1.83 -8.649 2.495 -9.97 3.289 c
+-10.078 3.158 -10.183 3.025 -10.29 2.894 c
+-8.905 2.058 -7.421 1.367 -5.834 0.879 c
+-3.933 0.296 -1.97 0 0 0 c
+f
+Q
+q 1 0 0 1 286.6216 18.0313 cm
+0 0 m
+0.127 0.106 0.254 0.211 0.382 0.317 c
+0.029 0.887 -0.35 1.439 -0.758 1.971 c
+-0.884 1.867 -1.011 1.762 -1.137 1.657 c
+-0.728 1.124 -0.351 0.571 0 0 c
+f
+Q
+q 1 0 0 1 252.1255 13.437 cm
+0 0 m
+2.447 7.972 9.688 13.327 18.019 13.327 c
+19.889 13.327 21.753 13.046 23.558 12.492 c
+27.36 11.325 30.608 9.031 32.975 5.932 c
+33.103 6.039 33.231 6.145 33.359 6.251 c
+30.996 9.332 27.7 11.743 23.705 12.97 c
+13.486 16.107 2.659 10.366 -0.478 0.147 c
+-2.936 -7.859 0.071 -16.22 6.396 -20.982 c
+6.502 -20.853 6.606 -20.721 6.713 -20.591 c
+0.549 -15.951 -2.392 -7.791 0 0 c
+f
+Q
+q 1 0 0 1 288.6528 2.2236 cm
+0 0 m
+1.699 5.533 0.777 11.235 -2.031 15.808 c
+-2.161 15.699 -2.292 15.592 -2.421 15.484 c
+-2.226 15.163 -2.022 14.848 -1.844 14.513 c
+0.515 10.063 1 4.961 -0.478 0.147 c
+-2.925 -7.824 -10.166 -13.18 -18.496 -13.18 c
+-20.367 -13.18 -22.23 -12.898 -24.036 -12.344 c
+-25.511 -11.891 -26.877 -11.255 -28.148 -10.498 c
+-28.255 -10.628 -28.36 -10.761 -28.466 -10.891 c
+-27.146 -11.685 -25.722 -12.35 -24.183 -12.822 c
+-13.964 -15.959 -3.137 -10.219 0 0 c
+f
+Q
+q 1 0 0 1 286.2314 17.7075 cm
+0 0 m
+0.129 0.108 0.26 0.215 0.39 0.324 c
+0.039 0.895 -0.338 1.448 -0.747 1.981 c
+-0.875 1.874 -1.003 1.769 -1.131 1.662 c
+-0.727 1.131 -0.351 0.577 0 0 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 378.0737 51.6523 cm
+0 0 m
+-3.137 -10.219 -13.964 -15.96 -24.183 -12.823 c
+-34.402 -9.686 -40.143 1.142 -37.005 11.36 c
+-33.868 21.579 -23.041 27.32 -12.823 24.183 c
+-2.604 21.045 3.137 10.219 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 359.5645 76.1924 cm
+0 0 m
+-8.33 0 -15.571 -5.355 -18.018 -13.327 c
+-21.069 -23.265 -15.466 -33.833 -5.527 -36.885 c
+-3.722 -37.439 -1.857 -37.72 0.013 -37.72 c
+8.343 -37.72 15.584 -32.365 18.031 -24.393 c
+21.083 -14.455 15.479 -3.887 5.54 -0.835 c
+3.734 -0.281 1.87 0 0 0 c
+0.013 -38.72 m
+-1.957 -38.72 -3.92 -38.424 -5.821 -37.841 c
+-16.287 -34.627 -22.187 -23.499 -18.974 -13.033 c
+-16.397 -4.639 -8.772 1 0 1 c
+1.97 1 3.933 0.704 5.833 0.121 c
+10.903 -1.436 15.063 -4.874 17.548 -9.559 c
+20.033 -14.245 20.544 -19.617 18.987 -24.687 c
+16.41 -33.081 8.785 -38.72 0.013 -38.72 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 484.5479 56.4697 cm
+0 0 m
+-3.138 -10.219 -13.964 -15.959 -24.183 -12.822 c
+-34.401 -9.685 -40.143 1.142 -37.006 11.361 c
+-33.868 21.58 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+f
+Q
+0 0 0 rg
+q 1 0 0 1 466.0391 81.0103 cm
+0 0 m
+-8.33 0 -15.571 -5.355 -18.02 -13.327 c
+-21.07 -23.265 -15.466 -33.833 -5.527 -36.885 c
+-3.722 -37.439 -1.857 -37.72 0.013 -37.72 c
+8.343 -37.72 15.583 -32.365 18.031 -24.394 c
+21.082 -14.455 15.479 -3.887 5.54 -0.835 c
+3.734 -0.281 1.87 0 0 0 c
+0.013 -38.72 m
+-1.957 -38.72 -3.92 -38.424 -5.82 -37.841 c
+-16.286 -34.627 -22.187 -23.499 -18.975 -13.033 c
+-16.397 -4.639 -8.772 1 0 1 c
+1.97 1 3.933 0.704 5.833 0.121 c
+16.299 -3.092 22.199 -14.221 18.986 -24.687 c
+16.409 -33.081 8.784 -38.72 0.013 -38.72 c
+f
+Q
+q 1 0 0 1 266.1909 1.2178 cm
+0 0 m
+0.588 -0.107 1.444 -0.134 2.353 -0.134 c
+7.325 -0.134 10.025 2.646 10.025 7.512 c
+10.052 11.763 7.646 14.463 2.727 14.463 c
+1.524 14.463 0.615 14.355 0 14.222 c
+h
+-2.326 15.933 m
+-0.909 16.147 0.775 16.307 2.62 16.307 c
+5.961 16.307 8.341 15.532 9.918 14.062 c
+11.522 12.591 12.458 10.506 12.458 7.592 c
+12.458 4.651 11.549 2.246 9.865 0.588 c
+8.181 -1.096 5.4 -2.005 1.898 -2.005 c
+0.241 -2.005 -1.149 -1.925 -2.326 -1.791 c
+h
+f
+Q
+q 1 0 0 1 361.0771 55.2764 cm
+0 0 m
+-1.765 5.187 l
+-2.166 6.362 -2.433 7.432 -2.7 8.475 c
+-2.754 8.475 l
+-3.021 7.405 -3.315 6.309 -3.663 5.213 c
+-5.427 0 l
+h
+-5.908 -1.818 m
+-7.78 -7.485 l
+-10.186 -7.485 l
+-4.063 10.533 l
+-1.257 10.533 l
+4.892 -7.485 l
+2.406 -7.485 l
+0.481 -1.818 l
+h
+f
+Q
+q 1 0 0 1 470.4385 60.896 cm
+0 0 m
+-7.004 0 l
+-7.004 -6.496 l
+0.803 -6.496 l
+0.803 -8.448 l
+-9.329 -8.448 l
+-9.329 9.571 l
+0.401 9.571 l
+0.401 7.619 l
+-7.004 7.619 l
+-7.004 1.925 l
+0 1.925 l
+h
+f
+Q
+q 1 0 0 1 555.6123 1.1377 cm
+0 0 m
+0.454 -0.081 1.123 -0.107 1.952 -0.107 c
+4.357 -0.107 6.576 0.775 6.576 3.395 c
+6.576 5.854 4.465 6.87 1.925 6.87 c
+0 6.87 l
+h
+0 8.635 m
+2.112 8.635 l
+4.571 8.635 6.015 9.918 6.015 11.655 c
+6.015 13.768 4.411 14.596 2.059 14.596 c
+0.989 14.596 0.374 14.516 0 14.436 c
+h
+-2.325 16.013 m
+-1.31 16.227 0.294 16.387 1.925 16.387 c
+4.251 16.387 5.748 15.986 6.87 15.077 c
+7.807 14.382 8.368 13.313 8.368 11.896 c
+8.368 10.158 7.218 8.635 5.32 7.939 c
+5.32 7.886 l
+7.031 7.458 9.036 6.042 9.036 3.368 c
+9.036 1.817 8.421 0.642 7.513 -0.241 c
+6.256 -1.391 4.224 -1.925 1.283 -1.925 c
+-0.32 -1.925 -1.551 -1.818 -2.325 -1.711 c
+h
+f
+Q
+Q
+
+endstreamendobj38 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj35 0 obj<</Length 7709>>stream
+q
+0 255 590 -255 re
+W n
+0 0 0 rg
+/GS0 gs
+q 1 0 0 1 414.9434 105.4375 cm
+0 0 m
+-21.123 0 -42.274 -2.813 -62.866 -8.36 c
+-125.054 -25.112 -176.996 -65.078 -209.123 -120.897 c
+-241.251 -176.716 -249.719 -241.705 -232.966 -303.893 c
+-204.661 -408.966 -108.985 -482.352 -0.3 -482.352 c
+20.823 -482.352 41.975 -479.539 62.566 -473.991 c
+124.754 -457.24 176.695 -417.273 208.823 -361.454 c
+240.951 -305.636 249.419 -240.647 232.666 -178.46 c
+204.361 -73.385 108.686 0 0 0 c
+-0.3 -484.352 m
+-109.887 -484.352 -206.357 -410.357 -234.897 -304.412 c
+-251.789 -241.709 -243.251 -176.181 -210.856 -119.899 c
+-178.462 -63.618 -126.09 -23.319 -63.386 -6.429 c
+-42.625 -0.835 -21.298 2 0 2 c
+109.587 2 206.058 -71.994 234.598 -177.939 c
+251.488 -240.643 242.951 -306.17 210.557 -362.452 c
+178.162 -418.734 125.789 -459.032 63.086 -475.923 c
+42.325 -481.516 20.999 -484.352 -0.3 -484.352 c
+f
+Q
+q 1 0 0 1 224.71 -12.6431 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+f
+Q
+0 0 0 RG
+q 1 0 0 1 224.71 -12.6431 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+h
+S
+Q
+1 1 1 rg
+q 1 0 0 1 308.71 76.3569 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+f
+Q
+q 1 0 0 1 308.71 76.3569 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+h
+S
+Q
+q 1 0 0 1 433.71 110.3569 cm
+0 0 m
+0 -10.689 -8.665 -19.355 -19.354 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.354 19.355 c
+-8.665 19.355 0 10.689 0 0 c
+f
+Q
+q 1 0 0 1 433.71 110.3569 cm
+0 0 m
+0 -10.689 -8.665 -19.355 -19.354 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.354 19.355 c
+-8.665 19.355 0 10.689 0 0 c
+h
+S
+Q
+q 1 0 0 1 553.71 79.3569 cm
+0 0 m
+0 -10.689 -8.665 -19.355 -19.354 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.354 19.355 c
+-8.665 19.355 0 10.689 0 0 c
+f
+Q
+q 1 0 0 1 553.71 79.3569 cm
+0 0 m
+0 -10.689 -8.665 -19.355 -19.354 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.354 19.355 c
+-8.665 19.355 0 10.689 0 0 c
+h
+S
+Q
+0 0 0 rg
+q 1 0 0 1 224.71 -12.6431 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+f
+Q
+q 1 0 0 1 224.71 -12.6431 cm
+0 0 m
+0 -10.689 -8.666 -19.355 -19.355 -19.355 c
+-30.044 -19.355 -38.71 -10.689 -38.71 0 c
+-38.71 10.689 -30.044 19.355 -19.355 19.355 c
+-8.666 19.355 0 10.689 0 0 c
+h
+S
+Q
+Q
+BT
+0 0 0 rg
+/GS0 gs
+/T1_0 1 Tf
+25.9207 0 0 25.9207 405.2236 100.9443 Tm
+(C)Tj
+4.586 -1.167 Td
+(G)Tj
+-9.291 -0.154 Td
+(F)Tj
+ET
+q
+0 255 590 -255 re
+W n
+BT
+1 1 1 rg
+/T1_0 1 Tf
+25.9207 0 0 25.9207 190.3594 -21.9951 Tm
+(A#)Tj
+ET
+0 0 0 rg
+q 1 0 0 1 414.918 64.4023 cm
+0 0 m
+-17.529 0 -35.081 -2.334 -52.169 -6.937 c
+-103.776 -20.839 -146.88 -54.005 -173.542 -100.327 c
+-200.203 -146.648 -207.23 -200.579 -193.328 -252.186 c
+-169.839 -339.382 -90.443 -400.281 -0.251 -400.281 c
+17.278 -400.281 34.832 -397.946 51.921 -393.343 c
+103.527 -379.441 146.631 -346.275 173.293 -299.954 c
+199.954 -253.633 206.98 -199.702 193.078 -148.096 c
+169.59 -60.899 90.193 0 0 0 c
+-0.251 -402.281 m
+-91.345 -402.281 -171.536 -340.773 -195.259 -252.705 c
+-209.3 -200.583 -202.203 -146.113 -175.275 -99.329 c
+-148.347 -52.544 -104.812 -19.047 -52.69 -5.006 c
+-35.432 -0.357 -17.705 2 0 2 c
+91.096 2 171.286 -59.507 195.01 -147.575 c
+209.051 -199.698 201.954 -254.168 175.025 -300.952 c
+148.098 -347.736 104.563 -381.233 52.44 -395.274 c
+35.183 -399.924 17.454 -402.281 -0.251 -402.281 c
+f
+Q
+1 1 1 rg
+q 1 0 0 1 378.0737 51.6523 cm
+0 0 m
+-3.137 -10.219 -13.964 -15.96 -24.183 -12.823 c
+-34.402 -9.686 -40.143 1.142 -37.005 11.36 c
+-33.868 21.579 -23.041 27.32 -12.823 24.183 c
+-2.604 21.045 3.137 10.219 0 0 c
+f
+Q
+0 0 0 RG
+q 1 0 0 1 378.0737 51.6523 cm
+0 0 m
+-3.137 -10.219 -13.964 -15.96 -24.183 -12.823 c
+-34.402 -9.686 -40.143 1.142 -37.005 11.36 c
+-33.868 21.579 -23.041 27.32 -12.823 24.183 c
+-2.604 21.045 3.137 10.219 0 0 c
+h
+S
+Q
+q 1 0 0 1 484.5479 56.4697 cm
+0 0 m
+-3.138 -10.219 -13.964 -15.959 -24.183 -12.822 c
+-34.401 -9.685 -40.143 1.142 -37.006 11.361 c
+-33.868 21.58 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+f
+Q
+q 1 0 0 1 484.5479 56.4697 cm
+0 0 m
+-3.138 -10.219 -13.964 -15.959 -24.183 -12.822 c
+-34.401 -9.685 -40.143 1.142 -37.006 11.361 c
+-33.868 21.58 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+h
+S
+Q
+q 1 0 0 1 577.166 2.6172 cm
+0 0 m
+-3.138 -10.219 -13.964 -15.959 -24.184 -12.822 c
+-34.401 -9.685 -40.143 1.142 -37.006 11.361 c
+-33.869 21.58 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+f
+Q
+q 1 0 0 1 577.166 2.6172 cm
+0 0 m
+-3.138 -10.219 -13.964 -15.959 -24.184 -12.822 c
+-34.401 -9.685 -40.143 1.142 -37.006 11.361 c
+-33.869 21.58 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+h
+S
+Q
+q 1 0 0 1 288.6528 2.2236 cm
+0 0 m
+-3.137 -10.219 -13.964 -15.959 -24.183 -12.822 c
+-34.402 -9.685 -40.143 1.142 -37.005 11.36 c
+-33.868 21.579 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+f
+Q
+q 1 0 0 1 288.6528 2.2236 cm
+0 0 m
+-3.137 -10.219 -13.964 -15.959 -24.183 -12.822 c
+-34.402 -9.685 -40.143 1.142 -37.005 11.36 c
+-33.868 21.579 -23.041 27.32 -12.822 24.183 c
+-2.604 21.046 3.137 10.219 0 0 c
+h
+S
+Q
+BT
+0 0 0 rg
+/T1_0 1 Tf
+26.7338 0 0 26.7338 261.8335 -0.627 Tm
+(D)Tj
+ET
+Q
+BT
+/T1_0 1 Tf
+26.7338 0 0 26.7338 350.2231 47.791 Tm
+(A)Tj
+4.072 0.174 Td
+(E)Tj
+ET
+q
+0 255 590 -255 re
+W n
+BT
+/T1_0 1 Tf
+26.7338 0 0 26.7338 551.2549 -0.627 Tm
+(B)Tj
+ET
+0 0.443 0.737 rg
+q 1 0 0 1 475.1074 75.7813 cm
+0 0 m
+-8.211 4.916 -18.89 2.234 -23.805 -5.977 c
+-28.72 -14.188 -26.039 -24.866 -17.827 -29.782 c
+-9.617 -34.697 1.062 -32.015 5.977 -23.805 c
+10.892 -15.594 8.211 -4.915 0 0 c
+-19.882 -33.214 m
+-29.985 -27.166 -33.285 -14.026 -27.236 -3.922 c
+-21.188 6.181 -8.049 9.48 2.055 3.432 c
+12.158 -2.616 15.457 -15.756 9.409 -25.859 c
+3.361 -35.963 -9.778 -39.262 -19.882 -33.214 c
+f
+Q
+q 1 0 0 1 557.002 109.8423 cm
+0 0 m
+76.848 -46.002 123.737 -123.227 134.198 -205.863 c
+138.229 -204.729 l
+136.788 -193.615 134.699 -182.516 131.928 -171.479 c
+113.413 -97.737 67.29 -35.619 2.055 3.432 c
+-63.182 42.484 -139.72 53.794 -213.462 35.279 c
+-221.939 33.15 -230.254 30.64 -238.407 27.795 c
+-237.507 23.728 l
+-161.433 50.505 -74.444 44.564 0 0 c
+f
+Q
+q 1 0 0 1 499.5957 13.9448 cm
+0 0 m
+-49.022 29.346 -107.082 30.855 -155.684 9.191 c
+-154.801 5.202 l
+-107.198 26.705 -50.169 25.37 -2.055 -3.432 c
+48.498 -33.694 76.976 -86.956 78.056 -141.927 c
+82.034 -140.808 l
+80.588 -84.874 51.459 -30.805 0 0 c
+f
+Q
+q 1 0 0 1 343.9121 23.1362 cm
+0 0 m
+-24.417 110.434 l
+-25.686 109.987 -26.947 109.52 -28.209 109.055 c
+-3.718 -1.711 l
+-2.485 -1.125 -1.246 -0.555 0 0 c
+f
+Q
+q 1 0 0 1 319.4946 133.5698 cm
+0 0 m
+-0.899 4.067 l
+-2.169 3.625 -3.436 3.175 -4.697 2.715 c
+-3.792 -1.378 l
+-2.53 -0.914 -1.269 -0.447 0 0 c
+f
+Q
+q 1 0 0 1 344.7944 19.147 cm
+0 0 m
+-0.882 3.989 l
+-2.128 3.434 -3.367 2.864 -4.6 2.278 c
+-3.713 -1.733 l
+-2.482 -1.14 -1.245 -0.562 0 0 c
+f
+Q
+Q
+BT
+/T1_0 1 Tf
+2.176 Tw 17.0119 0 0 17.0119 45.5146 200.0205 Tm
+(A La)Tj
+2.246 Tw 0 -1.2 TD
+(B Si)Tj
+2.208 Tw 0 -1.2 TD
+[(C D)-4(o)]TJ
+2.122 Tw 0 -1.2 TD
+[(D R)-4(\351)]TJ
+2.296 Tw 0 -1.2 TD
+[(E M)-12(i)]TJ
+-0.045 Tc 2.346 Tw 0 -1.2 TD
+[(F)-45( Fa)]TJ
+0 Tc 2.142 Tw 0 -1.2 TD
+[(G S)-6(ol)]TJ
+ET
+
+endstreamendobj36 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj12 0 obj<</BaseFont/IWTZMI+AGaramondPro-Regular/Encoding/WinAnsiEncoding/FirstChar 73/FontDescriptor 40 0 R/LastChar 176/Subtype/Type1/Type/Font/Widths[338 0 0 0 0 0 0 0 0 0 0 0 0 676 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 257 0 0 0 0 0 0 0 0 0 0 0 0 432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 302]>>endobj40 0 obj<</Ascent 917/CapHeight 660/CharSet(/I/V/i/v/degree)/Descent -354/Flags 34/FontBBox[-183 -354 1355 917]/FontFamily(Adobe Garamond Pro)/FontFile3 41 0 R/FontName/IWTZMI+AGaramondPro-Regular/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 76/Type/FontDescriptor/XHeight 397>>endobj41 0 obj<</Filter/FlateDecode/Length 1007/Subtype/Type1C>>stream
+Hâ|êolu«Ô÷Æ´ré´πï•;by!Lò∆Ñ≈KtXâfaSa¬π^ª€⁄ﬁ∏≈F6˙Á˛ÙÆΩ˛s¥›2[ªE˛A;`_,Åò©/‘òƒDM47∫dﬁUM|ÂÔ≈ìÁ˚{~œ˜˘=“WA07ÿuyÕ∂´m?N„n cÔ†©gŒì.ú÷Íç 6XAıJb*(ˇŸP}‡—3’‡÷fpÁ…è∂@U0¸’è˚®A?M:˚Ï˘ÊÊÊ&->Wâ{±6;ı6Åu˙Ω·ˆb6O/ER4Œˆ›XõÀÖU⁄ºMx	⁄Wπ¨4¸˚åÙb…Ù4Ü´èú§ÍCvå°q;·∆Èå“*ˇëéˇâëLı¬ﬁêöÍd‘K/Ü{Ï{T™2•ó:ÈahíÓﬁ”ﬁŸÂ$∞ÃN8 ıÏÑˆBØBá†ãêAEΩ};·{U©™Öãîî_K∞≠%]DØpkÎúDÀ∑LÂVê¨? X˘Ü	hb=Q≥nx´íÉ÷≤™ uìñï5U~‚6 Û¥QEå@30®˚NÍ@ìi;?‹¥–\($ùésı%© ^-ÑbçG•âPåé¢	>Û–îöá“¯mŸ2-≈c¸D(ZﬂÕìB/Nä›à5ƒÒ˛8;Õ£∑√“–vsÌZK“∑fôÅŸÑÃƒ4éOy7 º,»±òE¨„7ÆcÒ˛M∞˝¯èæùΩv˛BvÏíîóPYé‰Ç1c?Ô˙	B§kêÂœ$B<∫¿¶AsP	¯,C«èñ´=˚ô7q´À÷=†¶]_›‰”b2_ŒJh"ŒgU/úÔé=à5Ü+^Ü≥æ©Nc-Hˇ˛}z∞Âõ-´[ÂﬂÄﬁ¥OuÑ->.®Æî‡Íg•º∏∏0'‰k"*çe_u |˙K3x•ÊäÙ©¥`â	¨ﬁ∆ú9xÇ	Ñπ»HåMÖ–À˛Hÿnﬁ˙√{‡û…ÌııN2Û≥”π≈ŸSó‹çµ K)ﬂ|VØ˝Ê¡”†<•/ﬁ7eY{í2FπøôIàı|!=ïûŒ]˘Ï»\û˚<5≥†Ìè⁄é?$–Ô–¢K„%«ÉS:∆«Ÿ»πHàıı!;FOê/ú%æ‡0ÀqQ6uníπÓπÀ‹ÕãÚº<¶¬í<…ü…>ëVaq™Q`íC√©Å¨CÖµ¨4ÕÉ÷y8ø∞%ÿµVg≤uıº‹∂åØ¨,_]Ω€ıâ≠—•/Ê…√á›doØª∞¥î/kOÁKf&⁄3ìπÇl(_Ã|ü¸el$k,⁄Ÿc»cdSÒÒ’M´I‰âø ¡ãÂ⁄
+endstreamendobj9 0 obj<</AIS false/BM/Normal/CA 0.300003/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.300003/op false>>endobj10 0 obj<</AIS false/BM/Normal/CA 0.600006/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 0.600006/op false>>endobj42 0 obj<</CreationDate(D:20141210192556+02'00')/Creator(Adobe Illustrator CS6 \(Windows\))/ModDate(D:20141210192556+01'00')/Producer(Adobe PDF library 10.01)/Title(Cycle des quintes v2.0 - Fonctions tonales)>>endobjxref
+0 43
+0000000000 65535 f
+0000000016 00000 n
+0000000076 00000 n
+0000044279 00000 n
+0000000000 00000 f
+0000044330 00000 n
+0000044809 00000 n
+0000046387 00000 n
+0000059981 00000 n
+0000085167 00000 n
+0000085289 00000 n
+0000057266 00000 n
+0000083397 00000 n
+0000060408 00000 n
+0000060533 00000 n
+0000060679 00000 n
+0000060814 00000 n
+0000060961 00000 n
+0000061110 00000 n
+0000061205 00000 n
+0000061334 00000 n
+0000046451 00000 n
+0000049744 00000 n
+0000053010 00000 n
+0000056135 00000 n
+0000056492 00000 n
+0000056848 00000 n
+0000060345 00000 n
+0000060282 00000 n
+0000060219 00000 n
+0000060156 00000 n
+0000060093 00000 n
+0000057203 00000 n
+0000057868 00000 n
+0000058194 00000 n
+0000075523 00000 n
+0000083284 00000 n
+0000061453 00000 n
+0000075410 00000 n
+0000061404 00000 n
+0000083778 00000 n
+0000084074 00000 n
+0000085412 00000 n
+trailer
+<</Size 43/Root 1 0 R/Info 42 0 R/ID[<746E674D8D37BE44AF2EC60E61E7D163><FDCE4B16CB2FEF4C8FB50996A1DF2FAB>]>>
+startxref
+85631
+%%EOF

@@ -43,9 +43,8 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à l'incomparable [R
   * Projecteurs
 
 ## Auteurs
-[TODO] *Check/Edit Bernat's Bio (maybe something about your past in music and/or 3D and/or web developpment???)*
-* Bernat Ferragu
-  >(EN) Digital artist and creative coding instructor. I own a MSc. and a passion for design in new technologies, their impact on our society and the way we can use them for a better change. I'm very interested in Computational Thinking, and how to explain its underlying principles through simple and beautiful pieces of digital-based pixel-art to kids and adults.
+* Bernat Ferragut
+  >(EN) Digital artist and creative coding instructor. I own a MSc. and a passion for design in new technologies, their impact on our society and the way we can use them for a better change. He is very interested in Computational Thinking, and how to explain its underlying principles through simple and beautiful pieces of digital-based pixel-art to kids and adults.
 * Jean-Denis Thériault
   >(FR) Programmeur informatique détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui relient l'humain, la technologie et la musique
 

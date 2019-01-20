@@ -1,48 +1,38 @@
+<!-- MUTEK-FESTIVAL-LLULL-PROJECT -->
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src='modules/Tone.min.js'></script>
-    <script src="modules/webmidi.min.js"></script>
-    <script src="modules/p5.min.js"></script>
-    <script src="modules/p5.dom.min.js"></script>
-    <script src="js/index.js"></script>
-    <!--  -->
+    <!-- LIBRARIES -->
+    <script src="lib/p5.js"></script>
+    <script src="lib/addons/p5.dom.js"></script>
+    <script src="lib/addons/p5.sound.js"></script>
+    <script src="lib/addons/scenemanager.js"></script>
+    <!-- MIDI -->
+    <script src="https://cdn.jsdelivr.net/npm/webmidi"></script>
     <script>
-      if (navigator.requestMIDIAccess) {
-          console.log('This browser supports WebMIDI!');
-      } else {
-          console.log('WebMIDI is not supported in this browser.');
-      }
-    </script>  
-  </head>
-  <body>
-    <h1>MIDI Data:</h1><br>
-    <div>
-      <h3>Device name:</h3>
-      <ul>
-        <li id="targetName"></li>
-      </ul>
-      <h3>Channel:</h3>
-      <ul>
-        <li id="channel"></li>
-      </ul>
-      <h3>Type:</h3> 
-      <ul>
-        <li id="type"></li>
-      </ul>
-      <h3>Knob number:</h3> 
-      <ul>
-        <li id="knobNumber"></li>
-      </ul>
-      <h3>Value:</h3> 
-      <ul>
-        <li id="value"></li>
-      </ul>
-      <h3>Timestamp:</h3> 
-      <ul>
-        <li id="timestamp"></li>
-      </ul>
-    </div>
-    <div id="sketch-holder">
-      <div id="sliders-holder"></div>
-    </div>
-  </body>
+        if (navigator.requestMIDIAccess) {
+            console.log('This browser supports WebMIDI!');
+        } else {
+            console.log('WebMIDI is not supported in this browser.');
+        }
+    </script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+</head>
+
+<body>
+    <!-- P5JS INJECTED CANVAS -->
+    <!-- LOGIC -->
+    <script src="js/main.js"></script>
+    <script src="js/intro.js"></script>
+    <script src="js/scene-1.js"></script>
+    <script src="js/scene-2.js"></script>
+    <script src="js/scene-3.js"></script>
+    <script src="js/scene-4.js"></script>
+    <script src="js/scene-5.js"></script>
+    <script src="js/scene-6.js"></script>
+    <script src="js/scene-7.js"></script>
+    <script src="js/scene-8.js"></script>
+    <script src="js/scene-9.js"></script>
+</body>
+

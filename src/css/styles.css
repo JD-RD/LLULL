@@ -1,0 +1,27 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10%;
+    height: 1px;
+    border-radius: 0px;   
+    background: rgb(43, 43, 43);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1px;
+    height: 8px;
+    border-radius: 50%; 
+    background:white;
+    cursor: pointer;
+}

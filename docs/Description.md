@@ -44,8 +44,9 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à l'incomparable [R
 
 ## Auteurs
 * Bernat Ferragut
-  >(EN) Digital artist and creative coding instructor. I own a MSc. and a passion for design in new technologies, their impact on our society and the way we can use them for a better change. He is very interested in Computational Thinking, and how to explain its underlying principles through simple and beautiful pieces of digital-based pixel-art to kids and adults.
-* Jean-Denis Thériault
-  >(FR) Programmeur informatique détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui relient l'humain, la technologie et la musique
+  >(EN) Digital artist and creative coding instructor. He's MSc. in Clean Technologies with a real passion for design. Curious about new technologies and their impact on our society, Bernat Ferragut wishes to find innovative ways to make the world a better place. He is passionate about eduction and loves to share some of his knowledge through beautiful and minimal pieces of digital art.
 
-  >(EN) Software developer, Master of cognitive psychology, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music
+* Jean-Denis Thériault
+  >(FR) Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique.
+
+  >(EN) MSc. (cognitive psychology), Coding instructor, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music.

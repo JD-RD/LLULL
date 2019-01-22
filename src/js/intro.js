@@ -11,26 +11,13 @@ function Intro() {
 
     this.setup = function() {
         console.log('> intro: connected')
-        // oscillators
-        osc1= new p5.TriOsc();
-        osc1.freq(60);
-        osc1.amp(.15);
-        osc1.start();
-        osc2= new p5.TriOsc();
-        osc2.freq(120);
-        osc2.amp(.15);
-        osc2.start();
     }
     
     this.draw = function() {
-        // frameRate
-        // rate = 24;
-        // rate = 2;
+        
         // console.log('rate: ' + rate);
         frameRate(rate);
-        // oscillators
-        osc1.freq(x0.value());
-        osc2.freq(x1.value());
+        
         // bg
         background(0, 120-x1.value());
         // random generation letters
@@ -64,6 +51,8 @@ function Intro() {
         }
     }
     // keys | 0: Intro, 1: Scene-1, 2: Scene-2, ..., 9: Scene-9
+    // Up Arrow: Frame Rate + 2
+    // Down Arrow: Frame Rate - 2
     // KEYS CONTROL
     this.keyPressed = function() {
         

@@ -44,7 +44,7 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à l'incomparable [R
 
 ## Auteurs
 * Bernat Ferragut
-  >(EN) Digital artist and creative coding instructor. He's MSc. in Clean Technologies with a real passion for design. Curious about new technologies and their impact on our society, Bernat Ferragut wishes to find innovative ways to make the world a better place. He is passionate about eduction and loves to share some of his knowledge through beautiful and minimal pieces of digital art.
+  >(EN) Digital Artist and Creative Code instructor. He's MSc. in Clean Technologies with a passion for the conjunction of Art and Technology. After having worked professionally in the fields of VFX and Computer Design for over a decade, now is using the origins of Computational Thinking as a stream of daily self-discovery. Bernat explorations mix Design, History,  Philosophy, and Music in a search to find the right question.
 
 * Jean-Denis Thériault
   >(FR) Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique.

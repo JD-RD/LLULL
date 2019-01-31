@@ -12,7 +12,7 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](htt
 
 ## Performance
 * Le présent projet propose une performance audiovisuelle d'une durée d'environ 30 minutes où un nombre limité de paramètres soigneusement calibrés sont manipulés afin de générer une oeuvre en 9 parties (voir section [Concept](#concept)). L'esthétique minimale et expérimentale se veut également accessible et transcendante. Musicalement, l'oeuvre est inspirée des courants **minimal techno, ambiant et dub**
-* Les auteurs cherchent à s'aligner avec la philosophie "Open Source" de transparence et de partage de connaissances. C’est pourquoi les manipulations effectuées sont captées et projetées afin de donner aux spectateurs la chance de percevoir l'effet des interventions manuelles qui affectent à la fois les sons qu'ils entendent et les formes qu'ils voient. Cette approche sous estimée par plusieurs artistes représente un des aspets innovateur du présent projet.
+* Les auteurs cherchent à s'aligner avec la philosophie "Open Source" de transparence et de partage de connaissances. C’est pourquoi les manipulations effectuées sont captées et projetées afin de donner aux spectateurs la chance de percevoir l'effet des interventions manuelles qui affectent à la fois les sons qu'ils entendent et les formes qu'ils voient. Cette approche sous-estimée par plusieurs artistes représente un des aspects innovateurs du présent projet.
 
 ### En bref
 * Musique synthétique et minimale (1 synthétiseur + 1 boîte à rythme) en direct
@@ -27,7 +27,7 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](htt
 
 ## Concept
 * Llull suggère l’utilisation du raisonnement afin d’atteindre la "perfection"
-* Cette quête est symbolisé par l’escalier de la connaissance à 9 niveaux
+* Cette quête est symbolisée par l’escalier de la connaissance à 9 niveaux
 * Les auteurs proposent une expérience musicale à travers ces différentes étapes
 * Chacune des scènes contient une question différente qui invite le spectateur à raisonner
 
@@ -47,4 +47,4 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](htt
   >Artiste numérique et instructeur de code créatif, détenteur d’une Maîtrise en Technologies Propres, passionné par la conjonction entre l’art et la technologie. Après avoir travaillé professionnellement dans les domaines des effets spéciaux et de la conception informatique pendant plus de dix ans, il utilise maintenant les origines de la pensée informatique comme un courant de découverte de soi quotidienne. Les explorations de Bernat mélangent le design, l’histoire, la philosophie et la musique dans le but de trouver la bonne question
 
 * Jean-Denis Thériault
-  >Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique
+  >Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de la web radio « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique

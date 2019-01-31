@@ -12,7 +12,7 @@ Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llu
 
 ## Performance
 * This project proposes a audiovisual performance of approximately 30 minutes where a limited number of settings carefully calibrated are manipulated to generate the nine-part A/V work. (see [Concept](#concept) section) The minimal and experimental aesthetic wants itself to be accessible as well as transcendent. Musically, the performance is inspired by the **minimal techno, ambient and dub currents**
-* One of the authors goal is to aligning with the transparency philosophy of Open Source. This is why manipulations will be captured and projected to offer viewers the chance to perceive the effect of the manual interventions affecting both the sounds they hear and the shapes they see. We feel this approach is often overlooked by many artists. At the same time, it is one of the innovative aspects of this particular project
+* One of the authors goal is to align with the transparency philosophy of Open Source. This is why manipulations will be captured and projected to offer viewers the chance to perceive the effect of the manual interventions affecting both the sounds they hear and the shapes they see. We feel this approach is often overlooked by many artists. At the same time, it is one of the innovative aspects of this particular project
 
 ### Summary
 * Synthetic and minimal music (1 synthesizer + 1 drum machine) live
@@ -23,7 +23,7 @@ Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llu
 
 ## Ramon Llull
 
->Still today, Llull inspires a large number of creators working in multiple fields (visual arts, music, philosophy, politics, etc.). Among other things, the combinatorial and algorithmic principles developed by Llull have played a fundamental role in the evolution of human thought. Llull's work has certainly fostered all kinds of technological advances that led to the digital and artistic revolution in which we live
+>Still today, Llull inspires a large number of creators working in multiple fields (visual arts, music, philosophy, politics, etc.). Amongst other things, the combinatorial and algorithmic principles developed by Llull have played a fundamental role in the evolution of human thought. Llull's work has certainly fostered all kinds of technological advances that led to the digital and artistic revolution in which we live today
 
 ## Concept
 * Llul suggests the use of reasoning to achieve "perfection"
@@ -47,4 +47,4 @@ Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llu
   >Digital Artist and Creative Code instructor. He's MSc. in Clean Technologies with a passion for the conjunction of Art and Technology. After having worked professionally in the fields of VFX and Computer Design for over a decade, now is using the origins of Computational Thinking as a stream of daily self-discovery. Bernat explorations mix design, history, philosophy, and music in a search to find the right question
 
 * Jean-Denis Thériault
-  >MSc. (cognitive psychology), Coding instructor, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music.
+  >MSc. (cognitive psychology), Coding instructor, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B web radio, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music.

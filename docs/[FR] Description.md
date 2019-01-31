@@ -47,4 +47,4 @@ Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](htt
   >Artiste numérique et instructeur de code créatif, détenteur d’une Maîtrise en Technologies Propres, passionné par la conjonction entre l’art et la technologie. Après avoir travaillé professionnellement dans les domaines des effets spéciaux et de la conception informatique pendant plus de dix ans, il utilise maintenant les origines de la pensée informatique comme un courant de découverte de soi quotidienne. Les explorations de Bernat mélangent le design, l’histoire, la philosophie et la musique dans le but de trouver la bonne question
 
 * Jean-Denis Thériault
-  >Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique.
+  >Instruceur de programmation, détenteur d’une Maitrise en psychologie cognitive, DJ, artisan radio (CHYZ, CKIA) et fondateur de « La Face B », Jean-Denis Thériault s’intéresse principalement aux liens qui sont tissés entre l'humain, la technologie et la musique

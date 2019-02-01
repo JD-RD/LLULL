@@ -1,0 +1,27 @@
+h3 {
+    color: rgb(57, 57, 57);
+}
+
+li {
+    color: rgb(57, 57, 57);
+}
+div {
+    background-color: WhiteSmoke;
+    border: 5px;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+#sketch-holder {
+    /* P5.js stuff  */
+    width: 910px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#sliders-holder {
+    width: 260px;
+    float: none;
+    /* background-color: white; */
+}

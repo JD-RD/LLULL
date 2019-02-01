@@ -104,7 +104,7 @@ WebMidi.enable(function () {
     // var input = WebMidi.getInputByName('TR-8');
     // var input = WebMidi.getInputByName('Moog Sub Phatty');
     console.log(WebMidi.inputs);
-    var roland = WebMidi.getInputByName('TR-8');
+    // var roland = WebMidi.getInputByName('TR-8');
     var moog = WebMidi.getInputByName('Moog Sub Phatty');
 
     // Listen to control change message on Sub Phatty's channel 1
@@ -157,6 +157,7 @@ WebMidi.enable(function () {
     );
 
     // Listen to control change message on TR-8's channel 10
+    /*
     roland.addListener('controlchange', 10,
         function (e) {
             console.log('Roland\'s ControlChange Number: ', e.controller.number);
@@ -204,5 +205,6 @@ WebMidi.enable(function () {
             }
         }
     );
+    */
     console.log('> web-midi: connected');
 }); 

@@ -47,4 +47,4 @@ Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llu
   >Digital Artist and Creative Code instructor. He's MSc. in Clean Technologies with a passion for the conjunction of Art and Technology. After having worked professionally in the fields of VFX and Computer Design for over a decade, now is using the origins of Computational Thinking as a stream of daily self-discovery. Bernat explorations mix design, history, philosophy, and music in a search to find the right question
 
 * Jean-Denis Thériault
-  >MSc. (cognitive psychology), Coding instructor, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B web radio, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music.
+  >MSc. (Cognitive Psychology), Coding instructor, DJ, radio producer (CHYZ and CKIA FM) and founder of La Face B web radio, Jean-Denis Theriault is mainly interested in the links between humans, technologies and music

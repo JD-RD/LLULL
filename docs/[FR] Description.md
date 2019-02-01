@@ -8,7 +8,7 @@
 
 
 # LLULL
-Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](https://en.wikipedia.org/wiki/Ramon_Llull), philosophe et mystique catalan né à Majorque au XIIe siècle
+Projet proposé au festival Mutek (Montréal, 2019) dédié à [Ramon Llull](https://en.wikipedia.org/wiki/Ramon_Llull), pionnier de la pensée computationnelle
 
 ## Performance
 * Le présent projet propose une performance audiovisuelle d'une durée d'environ 30 minutes où un nombre limité de paramètres soigneusement calibrés sont manipulés afin de générer une oeuvre en 9 parties (voir section [Concept](#concept)). L'esthétique minimale et expérimentale se veut également accessible et transcendante. Musicalement, l'oeuvre est inspirée des courants **minimal techno, ambiant et dub**

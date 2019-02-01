@@ -8,10 +8,10 @@
 
 
 # LLULL
-Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llull](https://en.wikipedia.org/wiki/Ramon_Llull), Catalan philosopher and mystic born in Mallorca in the 12th century
+Project proposal for the Mutek festival (Montreal, 2019) dedicated to [Ramon Llull](https://en.wikipedia.org/wiki/Ramon_Llull), pioneer of computational thinking
 
 ## Performance
-* This project proposes a audiovisual performance of approximately 30 minutes where a limited number of settings carefully calibrated are manipulated to generate the nine-part A/V work. (see [Concept](#concept) section) The minimal and experimental aesthetic wants itself to be accessible as well as transcendent. Musically, the performance is inspired by the **minimal techno, ambient and dub currents**
+* This project proposes an audiovisual performance of approximately 30 minutes where a limited number of settings carefully calibrated are manipulated to generate the nine-part A/V work. (see [Concept](#concept) section) The minimal and experimental aesthetic wants itself to be accessible as well as transcendent. Musically, the performance is inspired by the **minimal techno, ambient and dub currents**
 * One of the authors goal is to align with the transparency philosophy of Open Source. This is why manipulations will be captured and projected to offer viewers the chance to perceive the effect of the manual interventions affecting both the sounds they hear and the shapes they see. We feel this approach is often overlooked by many artists. At the same time, it is one of the innovative aspects of this particular project
 
 ### Summary

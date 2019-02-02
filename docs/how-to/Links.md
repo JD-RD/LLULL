@@ -7,4 +7,5 @@
 * [How to run P5.js projects on local server](https://github.com/processing/p5.js/wiki/Local-server)
 ## Visual Studio Code
 * [Chrome Debugging for VS Code](https://code.visualstudio.com/blogs/2016/02/23/introducing-chrome-debugger-for-vs-code)
-* 
+* [How can you export VS Code extension list](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
+* [JD's Extensions](docs/how-to/VSCode_Extensions.md)

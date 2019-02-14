@@ -5,8 +5,7 @@ function Scene1() {
     let colors = ['rgba(255, 199, 26,0.5)','rgb(237, 28, 36)', 'rgb(0, 166, 81)' ];
     // dots
     let dot1;
-    // oscillators
-    let osc1;
+
     // dot 
     let s;
     let dotSize = 12;
@@ -14,11 +13,6 @@ function Scene1() {
     this.setup = function() {
         //dot
         dot1 = new Dot(w/2, h/2);
-        // oscillators
-        osc1= new p5.SawOsc();
-        osc1.freq(140);
-        osc1.amp(.05);
-        osc1.start();
     }
 
     this.draw = function() {
@@ -27,8 +21,6 @@ function Scene1() {
         // dot1.creation(10, 'tomato', x0.value() * 4);
         dot1.creation(dotSize+x0.value(), 'tomato');
         dot1.randomness(x1.value()/4);
-        // oscillators
-        osc1.freq(x0.value());
     }
 
     // KEYS CONTROL
@@ -73,8 +65,5 @@ function Scene1() {
         // multipliers values to 0
         x0.value(0);
         x1.value(0);
-        // oscillators values to 0
-        osc1.start(0);
-        // osc2.start(0);
     }
 }

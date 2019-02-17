@@ -24,7 +24,8 @@ function setup() {
     manager.addScene ( Scene8 );
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
-    manager.showScene( Intro );   
+    // manager.showScene( Intro );
+    manager.showScene( Scene1 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -48,16 +49,16 @@ function createSliders() {
     x3.position(sliderWidth * 4, sliderHeight);
     x3.style('width', '80px');
     x4 = createSlider(0, 127, 0, 0.1);
-    x4.position(sliderWidth * 5, sliderHeight);
+    x4.position(sliderWidth * 1, height-sliderHeight);
     x4.style('width', '80px');
     x5 = createSlider(0, 127, 0, 0.1);
-    x5.position(sliderWidth * 6, sliderHeight);
+    x5.position(sliderWidth * 2, height-sliderHeight);
     x5.style('width', '80px');
     x6 = createSlider(0, 127, 0, 0.1);
-    x6.position(sliderWidth * 7, sliderHeight);
+    x6.position(sliderWidth * 3, height-sliderHeight);
     x6.style('width', '80px');
     x7 = createSlider(0, 127, 0, 0.1);
-    x7.position(sliderWidth * 8, sliderHeight);
+    x7.position(sliderWidth * 4, height-sliderHeight);
     x7.style('width', '80px');
 }
 

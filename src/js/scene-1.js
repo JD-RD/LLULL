@@ -2,26 +2,31 @@ function Scene1() {
     // Parameters in Scene 1:
     // x0=>dot size, x1=>randomness
 
-    let colors = ['rgba(255, 199, 26,0.5)','rgb(237, 28, 36)', 'rgb(0, 166, 81)' ];
+    let colors = ['rgba(255, 199, 26,0.5)','rgba(237, 28, 36, 0.5)', 'rgba(0, 166, 81, 0.5)' ];
     // dots
-    let dot1;
+    let dot1, dot2;
+
 
     // dot 
-    let s;
-    let dotSize = 12;
+    let dotSize = 152;
 
     this.setup = function() {
         //dot
-        dot1 = new Dot(w/2, h/2);
+        dot1 = new Dot(w/2 - dotSize, h/2)
+        dot2 = new Dot(w/2 +  dotSize, h/2)
     }
 
     this.draw = function() {
-        background(color(colors[0]));
+        background(color(colors[0]))
         // dot creation
-        // dot1.creation(10, 'tomato', x0.value() * 4);
-        dot1.creation(dotSize+x0.value(), 'tomato');
-        dot1.randomness(x1.value()/4);
+        dot1.creation(dotSize + x0.value(), colors[1])
+        dot1.randomness(x1.value()/4)
+        dot2.creation(dotSize + x4.value(), colors[2])
+        dot2.randomness(x5.value()/4)
     }
+
+    // postition based on distance
+    
 
     // KEYS CONTROL
     this.keyPressed = function() {

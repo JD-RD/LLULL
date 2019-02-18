@@ -1,30 +1,36 @@
 function Scene1() {
-    // x0,x4=>dot size
-    // x1,x5=>randomness
-    // x2,x6=>alpha
+    // x0,x4    =>dot size
+    // x1,x5    =>randomness
+    // x2,x6    =>alpha
+    // x3,x7   =>speed rotation
 
     // dots
     let dot1, dot2;
     let dotSize = 152;
-    let colors = ['rgba(255, 199, 26,0.5)',
+    let colors = [  'rgba(255, 199, 26,0.5)',
                     'rgba(237, 28, 36, 0.5)', 
                     'rgba(0, 166, 81, 0.5)' ];
    
     this.setup = function() {
-        //dot
-        dot1 = new Dot(w/2 - dotSize, h/2)
-        dot2 = new Dot(w/2 +  dotSize, h/2)
+        //dots at 0,0 creation
+        dot1 = new Dot(-dotSize, 0)
+        dot2 = new Dot(dotSize, 0)
     }
 
     this.draw = function() {
+        // bg
         background(color(colors[0]))
-        // dot creation
+        // grid translations
+        translate(w/2, h/2)
+        rotate(radians(frameCount/10 + x3.value()))
+        // dot1
         dot1.creation(dotSize + x0.value()*2, colors[1])
         dot1.randomness1(x1.value()/10)
-        dot1.checkDistance()
+        dot1.checkDistance(dotSize)
+        // dot2
         dot2.creation(dotSize + x4.value()*2, colors[2])
         dot2.randomness1(x5.value()/10)
-        dot2.checkDistance()
+        dot2.checkDistance(dotSize)
     }    
 
     // KEYS CONTROL
@@ -71,3 +77,5 @@ function Scene1() {
         x1.value(0);
     }
 }
+
+// To Do - Translate axis to centrer . Rotate from the center both dots

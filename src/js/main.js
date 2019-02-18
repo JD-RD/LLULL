@@ -74,9 +74,9 @@ class Dot {
     randomness1(rnd) {
         this.x += random(-rnd, rnd); // random option
     }
-    checkDistance() {
-        if(this.x > w/3*2 || this.x < w/3) {
-            this.x = w/2 // reset distance
+    checkDistance(dotSize) {
+        if(this.x >dotSize*3 || this.x < -dotSize *3) {
+            this.x = 0 // reset distance
         }
     }
 }

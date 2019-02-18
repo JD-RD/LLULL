@@ -5,6 +5,7 @@ let w = window.innerWidth, h = window.innerHeight;
 // slider vars ( multipliers ) 
 let x0, x1, x2, x3, x4, x5, x6, x7
 let sliderHeight = 50, sliderWidth = 130
+let d
 
 // main p5js setup
 function setup() {
@@ -72,13 +73,25 @@ class Dot {
         ellipse(this.x, this.y, s, s)
     }
     randomness1(rnd) {
-        this.x += random(-rnd, rnd); // random option
+        this.x += random(-rnd, rnd) // random option
+        this.y += random(-rnd, rnd)
     }
     checkDistance(dotSize) {
         if(this.x >dotSize*3 || this.x < -dotSize *3) {
             this.x = 0 // reset distance
         }
+        if(this.y >dotSize*3 || this.y < -dotSize *3) {
+            this.y = 0 // reset distance
+        }
+
     }
+    // checkCollision(b1,b2) {
+    //     d = dist(this.x, this.y, b1.x, b2.y)
+    //     if(d < b1.r + b2.r) {
+    //         b1.changeColor()
+    //         b2.changeColor()
+    //     }
+    // }
 }
 
 // text

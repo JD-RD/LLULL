@@ -1,12 +1,10 @@
 // MAIN.JS
-console.log('> main: connected');
-// colors
-const COLORS = ['rgb(255, 199, 26)','rgb(237, 28, 36)', 'rgb(0, 166, 81)' ];
+console.log('> main: connected')
 // canvas vars
 let w = window.innerWidth, h = window.innerHeight;
 // slider vars ( multipliers ) 
-let x0, x1, x2, x3, x4, x5, x6, x7;
-let sliderHeight = 50, sliderWidth = 130;
+let x0, x1, x2, x3, x4, x5, x6, x7
+let sliderHeight = 50, sliderWidth = 130
 
 // main p5js setup
 function setup() {
@@ -65,17 +63,21 @@ function createSliders() {
 // dot
 class Dot {
     constructor(x, y) {
-        this.x = x | 0;
-        this.y = y | 0;
+        this.x = x | 0
+        this.y = y | 0
     }
     creation(s, c) {
-        noStroke();
-        fill(c);
-        ellipse(this.x, this.y, s, s);
+        noStroke()
+        fill(c)
+        ellipse(this.x, this.y, s, s)
     }
-    randomness(rnd) {
-        this.x += random(-rnd, rnd);
-        this.y += random(-rnd, rnd);
+    randomness1(rnd) {
+        this.x += random(-rnd, rnd); // random option
+    }
+    checkDistance() {
+        if(this.x > w/3*2 || this.x < w/3) {
+            this.x = w/2 // reset distance
+        }
     }
 }
 

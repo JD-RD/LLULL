@@ -6,15 +6,15 @@ function Scene1() {
 
     // dots
     let dot1, dot2, test
-    let dotSize = 152;
+    let dotSize = 252;
     let colors = [  'rgba(255, 199, 26,0.5)',
                     'rgba(237, 28, 36, 0.5)', 
                     'rgba(0, 166, 81, 0.5)' ]
    
     this.setup = function() {
         //dots at 0,0 creation
-        dot1 = new Dot(-dotSize, 0)
-        dot2 = new Dot(dotSize, 0)
+        dot1 = new Dot(0, 0)
+        dot2 = new Dot(0, 0)
     }
 
     this.draw = function() {
@@ -22,16 +22,17 @@ function Scene1() {
         // bg - x2 adds x6 substracts alpha
         background(255,199, 26, x2.value()+ 5 - x6.value() * 1.25)
         // grid translations - x3 adds x7 substracts rotation
-        translate(w/2, h/2)
+        translate(w/2 + x3.value()- x7.value() , h/2)
         rotate(radians(frameCount/10 + x3.value()- x7.value()))
         // dot1
         dot1.creation(dotSize + x0.value()*2, colors[1])
         dot1.randomness1(x1.value()/10)
-        dot1.checkDistance(dotSize)
+        dot1.checkDistance(dotSize/2)
         // dot2
-        dot2.creation(dotSize + x4.value()*2, colors[2])
+        dot2.creation(dotSize/2 + x4.value()*2, colors[2])
         dot2.randomness1(x5.value()/10)
         dot2.checkDistance(dotSize)
+        dot2.checkCollision(dot1, dotSize)
     }    
 
     // KEYS CONTROL

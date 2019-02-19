@@ -85,13 +85,13 @@ class Dot {
         }
 
     }
-    // checkCollision(b1,b2) {
-    //     d = dist(this.x, this.y, b1.x, b2.y)
-    //     if(d < b1.r + b2.r) {
-    //         b1.changeColor()
-    //         b2.changeColor()
-    //     }
-    // }
+    checkCollision(dot, dotSize) {
+        d = dist(this.x, this.y, dot.x, dot.y)
+        if(d + dotSize/2 >= dotSize) {
+            this.x = dot.x
+            this.y = dot.y
+        }
+    }
 }
 
 // text

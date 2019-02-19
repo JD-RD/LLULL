@@ -1,30 +1,39 @@
 function Scene2() {
+    // x0,x4    =>dot size
+    // x1,x5    =>randomness
+    // x2,x6    =>alpha
+    // x3,x7    =>speed rotation
 
     // dots
-    let dot2;
-    // oscillators
-    let osc2;
-
+    let dot1, dot2, test
+    let dotSize = 152;
+    let colors = [  'rgba(255, 199, 26,0.5)',
+                    'rgba(237, 28, 36, 0.5)', 
+                    'rgba(0, 166, 81, 0.5)' ]
+   
     this.setup = function() {
-        //dot
-        dot2 = new Dot(w/2, h/2);
-        // oscillators
-        // osc2= new p5.SinOsc(120);
-        // osc2.freq(120);
-        // osc2.amp(.5);
-        // osc2.start();
+        //dots at 0,0 creation
+        dot1 = new Dot(-dotSize, 0)
+        dot2 = new Dot(dotSize, 0)
     }
 
     this.draw = function() {
-        background('tomato')
-        // dot creation
-        dot2.creation(10, 'red', x1.value());
-        dot2.randomness(x2.value()/6);
-        // oscillators
-        // osc2.freq(x1.value());
-    }
+        test = 0.5
+        // bg - x2 adds x6 substracts alpha
+        background(255,199, 26, x2.value()+ 5 - x6.value() * 1.25)
+        // grid translations - x3 adds x7 substracts rotation
+        translate(w/2, h/2)
+        rotate(radians(frameCount/10 + x3.value()- x7.value()))
+        // dot1
+        dot1.creation(dotSize + x0.value()*2, colors[1])
+        dot1.randomness1(x1.value()/10)
+        dot1.checkDistance(dotSize)
+        // dot2
+        dot2.creation(dotSize + x4.value()*2, colors[2])
+        dot2.randomness1(x5.value()/10)
+        dot2.checkDistance(dotSize)
+    }    
 
-    // keys | 0: Intro, 1: Scene-1, 2: Scene-2, ..., 9: Scene-9
     // KEYS CONTROL
     this.keyPressed = function() {
         if(key == 0) {
@@ -37,7 +46,7 @@ function Scene2() {
         } else if (key == '2') {
             this.resetScenes();
             this.sceneManager.showScene( Scene2 );
-            console.log('Scene-2')
+            console.log('Scene-2');
         } else if (key == '3') {
             this.sceneManager.showScene( Scene3 );
             console.log('Scene-3')
@@ -67,8 +76,5 @@ function Scene2() {
         // multipliers values to 0
         x0.value(0);
         x1.value(0);
-        // oscillators values to 0
-        // osc1.start(0);
-        osc2.start(0);
     }
 }

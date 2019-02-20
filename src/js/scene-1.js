@@ -1,8 +1,8 @@
 function Scene1() {
-    // x0,x4    =>dot size
-    // x1,x5    =>randomness
-    // x2,x6    =>alpha
-    // x3,x7    =>speed rotation
+    // x0,x4    =>dot size controlled by each player
+    // x1,x5    =>randomness controlled by each player
+    // x2,x6    =>alpha controlled by both players
+    // x3,x7    =>speed rotation controlled by both players
 
     // dots
     let dot1, dot2, test

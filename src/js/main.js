@@ -24,7 +24,7 @@ function setup() {
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
     // manager.showScene( Intro );
-    manager.showScene( Scene1 );  
+    manager.showScene( Scene3 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -76,6 +76,9 @@ class Dot {
         this.x += random(-rnd, rnd) // random option
         this.y += random(-rnd, rnd)
     }
+    randomness3(rnd){
+        this.y += random(-rnd, rnd) // random option
+    }
     checkDistance(dotSize) {
         if(this.x >dotSize*3 || this.x < -dotSize *3) {
             this.x = 0 // reset distance
@@ -83,8 +86,13 @@ class Dot {
         if(this.y >dotSize*3 || this.y < -dotSize *3) {
             this.y = 0 // reset distance
         }
-
     }
+    checkDistance3(dotSize){
+        if(this.y >dotSize*3 || this.y < -dotSize *3) {
+            this.y = 0 // reset distance
+        }
+    }
+
     checkCollision(dot, dotSize) {
         d = dist(this.x, this.y, dot.x, dot.y)
         if(d + dotSize/2 >= dotSize) {

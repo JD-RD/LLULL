@@ -1,12 +1,14 @@
 // MAIN.JS
-console.log('> main: connected');
-// colors
-const COLORS = ['rgb(255, 199, 26)','rgb(237, 28, 36)', 'rgb(0, 166, 81)' ];
+console.log('> main: connected')
 // canvas vars
 let w = window.innerWidth, h = window.innerHeight;
 // slider vars ( multipliers ) 
-let x0, x1, x2, x3, x4, x5, x6, x7;
-let sliderHeight = 50, sliderWidth = 130;
+let x0, x1, x2, x3, x4, x5, x6, x7
+let sliderHeight = 50, sliderWidth = 130
+let d
+// Perlin Noise vars
+let noiseMax = 0.8
+let zoff = 0
 
 // main p5js setup
 function setup() {
@@ -24,7 +26,8 @@ function setup() {
     manager.addScene ( Scene8 );
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
-    manager.showScene( Intro );   
+    // manager.showScene( Intro );
+    manager.showScene( Scene3 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -48,33 +51,75 @@ function createSliders() {
     x3.position(sliderWidth * 4, sliderHeight);
     x3.style('width', '80px');
     x4 = createSlider(0, 127, 0, 0.1);
-    x4.position(sliderWidth * 5, sliderHeight);
+    x4.position(sliderWidth * 1, height-sliderHeight);
     x4.style('width', '80px');
     x5 = createSlider(0, 127, 0, 0.1);
-    x5.position(sliderWidth * 6, sliderHeight);
+    x5.position(sliderWidth * 2, height-sliderHeight);
     x5.style('width', '80px');
     x6 = createSlider(0, 127, 0, 0.1);
-    x6.position(sliderWidth * 7, sliderHeight);
+    x6.position(sliderWidth * 3, height-sliderHeight);
     x6.style('width', '80px');
     x7 = createSlider(0, 127, 0, 0.1);
-    x7.position(sliderWidth * 8, sliderHeight);
+    x7.position(sliderWidth * 4, height-sliderHeight);
     x7.style('width', '80px');
 }
 
 // dot
 class Dot {
     constructor(x, y) {
-        this.x = x | 0;
-        this.y = y | 0;
+        this.x = x | 0
+        this.y = y | 0
     }
     creation(s, c) {
-        noStroke();
-        fill(c);
-        ellipse(this.x, this.y, s, s);
+        noStroke()
+        fill(c)
+        ellipse(this.x, this.y, s, s)
     }
-    randomness(rnd) {
-        this.x += random(-rnd, rnd);
-        this.y += random(-rnd, rnd);
+
+    creationBlubby() {
+        beginShape()
+        noStroke()
+        fill('yellow')
+        translate(w/2, h/2)
+        for(let a = 0; a < TWO_PI; a += 0.02){
+            let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
+           let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
+            let radius = map(noise(xoff,yoff, zoff), 0,1, 100, 200)
+            let x = radius * cos(a)
+            let y = radius * sin(a)
+            vertex(x, y)
+        } 
+    endShape(CLOSE)
+    zoff += 0.01
+    }
+
+    randomness1(rnd) {
+        this.x += random(-rnd, rnd) // random option
+        this.y += random(-rnd, rnd)
+    }
+    randomness3(rnd){
+        this.y += random(-rnd, rnd) // random option
+    }
+    checkDistance(dotSize) {
+        if(this.x >dotSize*3 || this.x < -dotSize *3) {
+            this.x = 0 // reset distance
+        }
+        if(this.y >dotSize*3 || this.y < -dotSize *3) {
+            this.y = 0 // reset distance
+        }
+    }
+    checkDistance3(dotSize){
+        if(this.y >dotSize*3 || this.y < -dotSize *3) {
+            this.y = 0 // reset distance
+        }
+    }
+
+    checkCollision(dot, dotSize) {
+        d = dist(this.x, this.y, dot.x, dot.y)
+        if(d + dotSize/2 >= dotSize) {
+            this.x = dot.x
+            this.y = dot.y
+        }
     }
 }
 

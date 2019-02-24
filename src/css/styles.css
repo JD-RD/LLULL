@@ -19,9 +19,9 @@ input {
 input::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 1px;
+    width: 2px;
     height: 8px;
     border-radius: 50%; 
-    background:white;
+    background:black;
     cursor: pointer;
 }

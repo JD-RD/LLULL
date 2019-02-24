@@ -1,35 +1,39 @@
 function Scene1() {
-    // Parameters in Scene 1:
-    // x0=>dot size, x1=>randomness
+    // x0,x4    =>dot size controlled by each player
+    // x1,x5    =>randomness controlled by each player
+    // x2,x6    =>alpha controlled by both players
+    // x3,x7    =>speed rotation controlled by both players
 
-    let colors = ['rgba(255, 199, 26,0.5)','rgb(237, 28, 36)', 'rgb(0, 166, 81)' ];
     // dots
-    let dot1;
-    // oscillators
-    let osc1;
-    // dot 
-    let s;
-    let dotSize = 12;
-
+    let dot1, dot2, test
+    let dotSize = 252;
+    let colors = [  'rgba(255, 199, 26,0.5)',
+                    'rgba(237, 28, 36, 0.5)', 
+                    'rgba(0, 166, 81, 0.5)' ]
+   
     this.setup = function() {
-        //dot
-        dot1 = new Dot(w/2, h/2);
-        // oscillators
-        osc1= new p5.SawOsc();
-        osc1.freq(140);
-        osc1.amp(.05);
-        osc1.start();
+        //dots at 0,0 creation
+        dot1 = new Dot(0, 0)
+        dot2 = new Dot(0, 0)
     }
 
     this.draw = function() {
-        background(color(colors[0]));
-        // dot creation
-        // dot1.creation(10, 'tomato', x0.value() * 4);
-        dot1.creation(dotSize+x0.value(), 'tomato');
-        dot1.randomness(x1.value()/4);
-        // oscillators
-        osc1.freq(x0.value());
-    }
+        test = 0.5
+        // bg - x2 adds x6 substracts alpha
+        background(255,199, 26, x2.value()+ 5 - x6.value() * 1.25)
+        // grid translations - x3 adds x7 substracts rotation
+        translate(w/2 + x3.value()- x7.value() , h/2)
+        rotate(radians(frameCount/10 + x3.value()- x7.value()))
+        // dot1
+        dot1.creation(dotSize + x0.value()*2, colors[1])
+        dot1.randomness1(x1.value()/10)
+        dot1.checkDistance(dotSize/2)
+        // dot2
+        dot2.creation(dotSize/2 + x4.value()*2, colors[2])
+        dot2.randomness1(x5.value()/10)
+        dot2.checkDistance(dotSize)
+        dot2.checkCollision(dot1, dotSize)
+    }    
 
     // KEYS CONTROL
     this.keyPressed = function() {
@@ -73,8 +77,5 @@ function Scene1() {
         // multipliers values to 0
         x0.value(0);
         x1.value(0);
-        // oscillators values to 0
-        osc1.start(0);
-        // osc2.start(0);
     }
 }

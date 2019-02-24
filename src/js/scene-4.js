@@ -1,13 +1,16 @@
 function Scene4() {
 
-    // this.setup = function() {
-    //     background('red')
-    // }
+    let blub1
+
+    this.setup = function() {
+        blub1 =  new Dot(w/2, h/2)
+    }
 
     this.draw = function() {
         background('tomato')
         fill('yellow')
-        ellipse(w/2, h/2,10,10)
+        noiseMax = x3.value()/100
+        blub1.creationBlubby()
     }
 
     // KEYS CONTROL

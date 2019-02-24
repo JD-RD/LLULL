@@ -6,6 +6,9 @@ let w = window.innerWidth, h = window.innerHeight;
 let x0, x1, x2, x3, x4, x5, x6, x7
 let sliderHeight = 50, sliderWidth = 130
 let d
+// Perlin Noise vars
+let noiseMax = 0.8
+let zoff = 0
 
 // main p5js setup
 function setup() {
@@ -72,6 +75,24 @@ class Dot {
         fill(c)
         ellipse(this.x, this.y, s, s)
     }
+
+    creationBlubby() {
+        beginShape()
+        noStroke()
+        fill('yellow')
+        translate(w/2, h/2)
+        for(let a = 0; a < TWO_PI; a += 0.02){
+            let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
+           let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
+            let radius = map(noise(xoff,yoff, zoff), 0,1, 100, 200)
+            let x = radius * cos(a)
+            let y = radius * sin(a)
+            vertex(x, y)
+        } 
+    endShape(CLOSE)
+    zoff += 0.01
+    }
+
     randomness1(rnd) {
         this.x += random(-rnd, rnd) // random option
         this.y += random(-rnd, rnd)

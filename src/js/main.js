@@ -27,7 +27,7 @@ function setup() {
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
     // manager.showScene( Intro );
-    manager.showScene( Scene4 );  
+    manager.showScene( Scene1 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -111,6 +111,15 @@ class Dot {
     checkDistance3(dotSize){
         if(this.y >dotSize*3 || this.y < -dotSize *3) {
             this.y = 0 // reset distance
+        }
+    }
+
+    checkDistance4(dotSize) {
+        if(this.y < 0) {
+            this.y = this.y + dotSize *3 // we just pullback the dot 3 times it's size
+        }
+        if(this.y > h) {
+            this.y = this.y - dotSize *3 
         }
     }
 

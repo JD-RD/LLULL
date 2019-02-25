@@ -46,7 +46,7 @@ function Scene4() {
             dotList1[i].randomness3(x1.value()/10)
             noiseMax = x3.value()/100
             // dotList1[i].creationBlubby(colors[1])
-            // dotList1[i].checkDistance3(dotSize)
+            dotList1[i].checkDistance4(dotSize)
           }
 
         // dot2
@@ -55,7 +55,7 @@ function Scene4() {
             dotList2[i].randomness3(x5.value()/10)
             noiseMax = x3.value()/100
             // dotList2[i].creationBlubby(colors[2])
-            // dotList2[i].checkDistance3(dotSize)
+            dotList2[i].checkDistance4(dotSize)
           }
     }    
 

@@ -27,7 +27,7 @@ function setup() {
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
     // manager.showScene( Intro );
-    manager.showScene( Scene3 );  
+    manager.showScene( Scene1 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -76,10 +76,10 @@ class Dot {
         ellipse(this.x, this.y, s, s)
     }
 
-    creationBlubby() {
+    creationBlubby(color) {
         beginShape()
         noStroke()
-        fill('yellow')
+        fill(color)
         translate(w/2, h/2)
         for(let a = 0; a < TWO_PI; a += 0.02){
             let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
@@ -111,6 +111,15 @@ class Dot {
     checkDistance3(dotSize){
         if(this.y >dotSize*3 || this.y < -dotSize *3) {
             this.y = 0 // reset distance
+        }
+    }
+
+    checkDistance4(dotSize) {
+        if(this.y < 0) {
+            this.y = this.y + dotSize *3 // we just pullback the dot 3 times it's size
+        }
+        if(this.y > h) {
+            this.y = this.y - dotSize *3 
         }
     }
 

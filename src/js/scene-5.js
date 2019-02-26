@@ -1,15 +1,26 @@
-function Scene5() {
+    // x0,x4    =>dot size for each player
+    // x1,x5    =>randomness for each player
+    // x2,x6    =>alpha controlled by both players
+    // x3,x7    =>amount Perlin Noise / WIP
 
-    // this.setup = function() {
-    //     background('red')
-    // }
+function Scene5() {
+    let dot1, dot2
+    let dotSize = w/32;
+    let colors = [  'rgba(255, 199, 26,0.5)',
+                    'rgba(237, 28, 36, 0.5)', 
+                    'rgba(0, 166, 81, 0.5)' ]
+
+
+    this.setup = function() {
+        dot1 =  new Dot(w/2, h/2)
+    }
 
     this.draw = function() {
-        background(20)
-        fill('yellow')
-        ellipse(w/2, h/2,10,10)
+        background(colors[0])
+        noiseMax = x3.value()/100
+        dot1.creationBlubby(colors[2])
     }
-    
+
     // KEYS CONTROL
     this.keyPressed = function() {
         if(key == 0) {

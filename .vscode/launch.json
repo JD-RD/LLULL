@@ -7,42 +7,11 @@
     "configurations": [
         {
             "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome",
-            "url": "localhost:3000",
-            "webRoot": "${workspaceFolder}/src"
-        },
-        {
+            "request": "attach",
             "name": "Attach to Chrome",
-            "type": "chrome",
-            "request": "attach",
-            "port": 3000,
-            "url": "localhost:3000",
-            "webRoot": "${workspaceFolder}/src"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch via browser-sync",
-            "runtimeExecutable": "browser-sync",
-            "runtimeArgs": [
-                "start",
-                "--server",
-                "-f",
-                "-w"
-            ],
-        },
-        {
-            "type": "node",
-            "request": "attach",
-            "name": "Attach by Process ID",
-            "processId": "${command:PickProcess}"
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/src/js/main.js"
+            "port": 8080,
+            "webRoot": "${workspaceFolder}"
         }
+        
     ]
 }

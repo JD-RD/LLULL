@@ -15,4 +15,3 @@ http-server -c-1
 * [Debugging JavaScript](https://youtu.be/AX7uybwukkk)
 * [How can you export VS Code extension list](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
   * [JD's Extensions](docs/how-to/VSCode_Extensions.md)
-

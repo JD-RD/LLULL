@@ -1,5 +1,6 @@
 // MAIN.JS
 console.log('> main: connected')
+
 // canvas vars
 let w = window.innerWidth, h = window.innerHeight;
 // slider vars ( multipliers ) 

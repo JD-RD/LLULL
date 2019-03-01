@@ -3,7 +3,7 @@ function Scene1() {
     // x1,x5    =>randomness controlled by each player
     // x2,x6    =>alpha controlled by both players
     // x3,x7    =>speed rotation controlled by both players
-
+    debugger
     // dots
     let dot1, dot2, test
     let dotSize = 252;

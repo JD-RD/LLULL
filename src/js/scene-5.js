@@ -56,3 +56,80 @@ function Scene5() {
         }
     }
 }
+
+
+// CODE DONE -  HAS TO BE INTEGRATED
+// let w = window.innerWidth;
+// let h = window.innerHeight
+// let s = 20;
+// let dot;
+// let dotList1 = [], dotList2=[];
+// let radius = 200;
+// let number = 9
+// let speed = 30;
+// const COLORS = ['rgba(255, 199, 26,0.25)',
+//   'rgba(0, 166, 81, 0.5)',
+//   'rgba(237, 28, 36, 0.5)'
+// ]
+
+// function setup() {
+//   // canvas
+//   createCanvas(w, h);
+//   // dotsList1
+//   for(let i=0; i<number; i++){
+//     dotList1.push( new Dot(w/2, h / 2, s));
+//   }
+//   // dotsList2
+//   for(let i=0; i<number; i++){
+//     dotList2.push( new Dot(w/2, h / 2, s));
+//   }
+// }
+
+// function draw() {
+//   //canvas
+//   background(COLORS[0]);
+  
+//   // dotList1
+//   fill(COLORS[1]);
+//   // radius = s_radius.value();
+//   // speed = s_speed.value();
+// 	for(let i=0; i<dotList1.length; i++  ){
+//     // radius = random(20,50);
+//     dotList1[i].on();
+//   	dotList1[i].circlePos(i);
+//   }
+//   // dotList2
+//   fill(COLORS[2]);
+//   // radius = s_radius.value();
+//   // speed = s_speed.value();
+// 	for(let i=0; i<dotList2.length; i++  ){
+//     // radius = random(20,50);
+//     dotList1[i].on();
+//   	dotList1[i].circleNeg(i);
+//   }
+// }
+
+// // Dot object
+// class Dot {
+//   // class attributes
+//   constructor(x, y, s) {
+//     this.x = x | 0;
+//     this.y = y | 0;
+//     this.size = s | 2;
+//   }
+//   // class methods
+//   on() {
+//     noStroke();
+//     ellipse(this.x, this.y, this.size, this.size)
+    
+//   }
+//   // amazing how changing + and - sinus effects appear / play with them!
+//   circlePos(i) {
+//     this.x =  (w/2 - sin(frameCount/speed+i) * radius) + w/7;
+//     this.y =  h/2 + cos(frameCount/speed+i) * radius;
+//   }
+//     circleNeg(i) {
+//     this.x =  (w/2 + sin(-frameCount/speed+i) * radius) - w/7;
+//     this.y =  h/2 - cos(-frameCount/speed+i) * radius;
+//   }
+// }

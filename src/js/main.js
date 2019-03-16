@@ -70,6 +70,7 @@ class Dot {
         this.x = x | 0
         this.y = y | 0
     }
+    // All Scenes
     creation(s, c) {
         noStroke()
         fill(c)
@@ -92,11 +93,12 @@ class Dot {
     endShape(CLOSE)
     zoff += 0.01
     }
-
+    // Scene1 
     randomness1(rnd) {
         this.x += random(-rnd, rnd) // random option
         this.y += random(-rnd, rnd)
     }
+    // Scene 3
     randomness3(rnd){
         this.y += random(-rnd, rnd) // random option
     }
@@ -113,7 +115,6 @@ class Dot {
             this.y = 0 // reset distance
         }
     }
-
     checkDistance4(dotSize) {
         if(this.y < 0) {
             this.y = this.y + dotSize *3 // we just pullback the dot 3 times it's size
@@ -122,7 +123,6 @@ class Dot {
             this.y = this.y - dotSize *3 
         }
     }
-
     checkCollision(dot, dotSize) {
         d = dist(this.x, this.y, dot.x, dot.y)
         if(d + dotSize/2 >= dotSize) {
@@ -131,7 +131,7 @@ class Dot {
         }
     }
 
-    // amazing how changing + and - sinus effects appear / play with them!
+    // Scene-5 amazing how changing + and - sinus effects appear / play with them!
     circlePos(i, speed, radius) {
         this.x =  (w/2 - sin(-frameCount/speed+i) * radius) //+ w/7;
         this.y =  h/2 + cos(frameCount/speed+i) * radius;
@@ -139,7 +139,6 @@ class Dot {
         //     frameCount = -frameCount
         // },1000)
     }
-
     circleNeg(i, speed, radius) {
         this.x =  (w/2 + sin(frameCount/speed+i) * radius)//  - w/7;
         this.y =  h/2 - cos(frameCount/speed+i) * radius;

@@ -48,69 +48,54 @@ function Scene7() {
 
 // CODE DONE - HAS TO BE INTEGRATED
 
-// let w = window.innerWidth
-// let h = window.innerHeight
-// let d1
-// let phase = 0,
-//   speed = 0.03
-// let maxDotSize = 39
-// let numCols = 8
-// const COLORS = ['rgba(255, 199, 26,0.5)',
-//   'rgba(0, 166, 81, 0.5)',
-//   'rgba(237, 28, 36, 0.5)'
-// ]
+// Rose Patterns =>  r = cos(k*angle );
+// posX = (cos(k*angle) * cos(angle);
+// posY = (sin(k*angle) * sin(angle);
+// k = n / d; number of sides / numbers of sides
+// canvas vars
+// let w = window.innerWidth/1.2, h = window.innerHeight/1.2;
+// let w = 732, h = 250;
+// let posX, posY;
+// let r;
+// let angle;
+// let n = 9;
+// let n_Slider;
+// let d = 1;
+// let d_Slider;
+// let k;
+// let expander = 100;
 
 // function setup() {
 //   createCanvas(w, h);
+//   n_Slider = createSlider(1,9,9); // 9 max
+//   n_Slider.position(20,15);
+//   d_Slider = createSlider(1,9,7);
+//   d_Slider.position(20,35);// 9 max
 // }
 
+// // 9 sides = 0.69813170079
 // function draw() {
-//   background('rgba(255, 199, 26,0.25)');
-//   noStroke()
-//   // translate(w/2,h/2)
-//   // rotate(frameCount/100)
-
-//   // Loop1
-//   for (let strand = 0; strand < 9; strand++) {
-//     fill('rgba(0, 166, 81, 0.5)')
-
-//     let x = map(strand, 0, numCols, maxDotSize, w - maxDotSize);
-
-//     phase = frameCount * speed
-//     let y = h / 2 + sin(phase + strand / 8) * 25
-//     let sizeOffset = (cos(phase + strand) + 1) * 0.5
-//     let circleSize = sizeOffset * maxDotSize
-//     d1 = new Dot(x, y, circleSize)
-
-//     d1.create()
-//   }
-
-//   // Loop2
-//   for (let strand = 9; strand > 0; strand--) {
-//     fill('rgba(237, 28, 36, 0.5)')
-
-//     let x = map(strand, numCols, 0, w - maxDotSize, maxDotSize);
-
-//     phase = frameCount * speed
-//     let y = h / 2 + cos(phase + strand / 8) * 25
-//     let sizeOffset = (sin(phase + strand) + 1) * 0.5
-//     let circleSize = sizeOffset * maxDotSize
-//     d1 = new Dot(x, y, circleSize)
-
-//     d1.create()
-//   }
-
-// }
-
-// // Dot Class
-// class Dot {
-//   constructor(x, y, s) {
-//     this.x = x
-//     this.y = y
-//     this.s = s
-//   }
-
-//   create() {
-//     ellipse(this.x, this.y, this.s, this.s)
-//   }
+//   background(0);
+//   fill(255);
+//   text('n', 10,22);
+//   text('d', 10,42);
+//   fill('yellow');
+//   text(n_Slider.value(), 100,22);
+//   text(d_Slider.value(), 100,42);
+//   translate(w/2, h/2);
+// 	// loop
+//   beginShape();
+//   for( angle = 0 ; angle < TWO_PI * d_Slider.value(); angle += 0.01) {
+//     k = n_Slider.value() / d_Slider.value() // n / d;
+//     r = (cos( k * angle )) * expander;
+//   	posX = r * cos(angle);
+//   	posY = r * sin(angle);
+//     noFill();
+//     stroke(255);
+//     strokeWeight(.5);
+//   	// strokeWeight(2);
+// 		// point(posX, posY);
+//     vertex(posX, posY);
+// 	}
+//   endShape();
 // }

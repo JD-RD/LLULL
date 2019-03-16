@@ -13,21 +13,21 @@ let zoff = 0
 // main p5js setup
 function setup() {
      // scene manager
-    var manager = new SceneManager();
+    var manager = new SceneManager()
     manager.wire();
-    manager.addScene ( Intro );
-    manager.addScene ( Scene1 );
-    manager.addScene ( Scene2 );
-    manager.addScene ( Scene3 );
-    manager.addScene ( Scene4 );
-    manager.addScene ( Scene5 );
-    manager.addScene ( Scene6 );
-    manager.addScene ( Scene7 );
-    manager.addScene ( Scene8 );
-    manager.addScene ( Scene9 );
+    manager.addScene ( Intro )
+    manager.addScene ( Scene1 )
+    manager.addScene ( Scene2 )
+    manager.addScene ( Scene3 )
+    manager.addScene ( Scene4 )
+    manager.addScene ( Scene5 )
+    manager.addScene ( Scene6 )
+    manager.addScene ( Scene7 )
+    manager.addScene ( Scene8 )
+    manager.addScene ( Scene9 )
     // SCENE1 STARTS HERE
     // manager.showScene( Intro );
-    manager.showScene( Scene7 );  
+    manager.showScene( Scene9 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -76,23 +76,6 @@ class Dot {
         fill(c)
         ellipse(this.x, this.y, s, s)
     }
-
-    creationBlubby(color) {
-        beginShape()
-        noStroke()
-        fill(color)
-        translate(w/2, h/2)
-        for(let a = 0; a < TWO_PI; a += 0.02){
-            let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
-           let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
-            let radius = map(noise(xoff,yoff, zoff), 0,1, 100, 200)
-            let x = radius * cos(a)
-            let y = radius * sin(a)
-            vertex(x, y)
-        } 
-    endShape(CLOSE)
-    zoff += 0.01
-    }
     // Scene1 
     randomness1(rnd) {
         this.x += random(-rnd, rnd) // random option
@@ -139,6 +122,41 @@ class Dot {
     circleNeg(i, speed, radius) {
         this.x =  (w/2 + sin(frameCount/speed+i) * radius)//  - w/7;
         this.y =  h/2 - cos(frameCount/speed+i) * radius;
+    }
+
+    // Scene8-9
+    creationBlubby(color) {
+        beginShape()
+        noStroke()
+        fill(color)
+        translate(w/2, h/2)
+        for(let a = 0; a < TWO_PI; a += 0.02){
+            let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
+           let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
+            let radius = map(noise(xoff,yoff, zoff), 0,1, 100, 200)
+            let x = radius * cos(a)
+            let y = radius * sin(a)
+            vertex(x, y)
+        } 
+    endShape(CLOSE)
+    zoff += 0.01
+    }
+    creationBlubby2(color, thickness) {
+        beginShape()
+        stroke(color)
+        strokeWeight(thickness)
+        noFill()
+        translate(w/2, h/2)
+        for(let a = 0; a < TWO_PI; a += 0.02){
+            let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
+           let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
+            let radius = map(noise(xoff,yoff, zoff), 0,1, 100, 200)
+            let x = radius * cos(a)
+            let y = radius * sin(a)
+            vertex(x, y)
+        } 
+    endShape(CLOSE)
+    zoff += 0.01
     }
 }
 

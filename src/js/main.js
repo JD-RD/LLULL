@@ -26,8 +26,8 @@ function setup() {
     manager.addScene ( Scene8 )
     manager.addScene ( Scene9 )
     // SCENE1 STARTS HERE
-    // manager.showScene( Intro );
-    manager.showScene( Scene7 );  
+    manager.showScene( Intro );
+    // manager.showScene( Scene1 );  
     // canvas
     createCanvas(w, h);
     background(0);

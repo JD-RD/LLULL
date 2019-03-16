@@ -1,4 +1,7 @@
 function Intro() {
+    const colors = [  'rgba(255, 199, 26,0.5)',
+    'rgba(237, 28, 36, 0.5)', 
+    'rgba(0, 166, 81, 0.75)' ]
     let rate = 8;
     // font
     let letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K'];
@@ -19,7 +22,7 @@ function Intro() {
         frameRate(rate);
         
         // bg
-        background(0, 120-x1.value());
+        background(237,28, 36, x3.value()+ 25 - x7.value() * 0.25)
         // random generation letters
         surprise = []; // 4 letters long
         for(let i=0; i < 3; i++) {
@@ -35,16 +38,16 @@ function Intro() {
         if(choice > 0.5) {
             llull = new word(
                     w/2 + random( x2.value(), -x2.value()), // x position
-                    h/1.5 + random( x2.value(), -x2.value()), // y position
-                    color('rgba(0, 166, 81, 0.5)'),         // color
+                    h/1.75 + random( x2.value(), -x2.value()), // y position
+                    color(colors[2]),         // color
                     x0.value() + 200,                       // size
                     formedWord);                            // text to add
             llull.creation();
         } else {
             llull = new word(
                     w/2 + random( x2.value(), -x2.value()),// x position
-                    h/1.5 + random( x2.value(), -x2.value()),// y position
-                    'tomato',                              // color
+                    h/1.75 + random( x2.value(), -x2.value()),// y position
+                    color(colors[0]),                              // color
                     x0.value() + 200,                      // size
                     'LLULL');                              // text to add
             llull.creation();

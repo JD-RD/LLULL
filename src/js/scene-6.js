@@ -1,14 +1,52 @@
 function Scene6() {
+    // let dotSize1
+    let dotSize= w/12
+    let phase = 0
+    let speed = 0.03
+    let numCols = 8
+    const COLORS = ['rgba(255, 199, 26,0.5)',
+        'rgba(0, 166, 81, 0.5)',
+        'rgba(237, 28, 36, 0.5)'
+        ]
 
-    // this.setup = function() {
-    //     background('red')
-    // }
+    this.setup = function() {
+        // canvas
+    }
 
     this.draw = function() {
-        background(30)
-        fill('yellow')
-        ellipse(w/2, h/2,10,10)
+
+        // background(255,199, 26, x3.value()+ 50 - x7.value() * 0.25)
+        background('rgba(255, 199, 26,0.25)');
+
+        // Loop1
+        for (let strand = 0; strand < 9; strand++) {
+            let x = map(strand, 0, numCols, dotSize, w - dotSize);
+
+            phase = frameCount * speed
+            let y = h / 2 + sin(phase + strand / 8) * 25
+            let sizeOffset = (cos(phase + strand) + 1) * 0.5
+            let circleSize = sizeOffset * dotSize
+
+            dot1 = new Dot(x, y)
+            dot1.creation(circleSize, COLORS[1])
+        }
+
+        // Loop2
+        for (let strand = 9; strand > 0; strand--) {
+            
+
+            let x = map(strand, numCols, 0, w - dotSize, dotSize);
+
+            phase = frameCount * speed
+            let y = h / 2 + cos(phase + strand / 8) * 25
+            let sizeOffset = (sin(phase + strand) + 1) * 0.5
+            let circleSize = sizeOffset * dotSize
+
+            dot1 = new Dot(x, y)
+            dot1.creation(circleSize, COLORS[2])
+        }
     }
+    
 
     // KEYS CONTROL
     this.keyPressed = function() {
@@ -45,73 +83,3 @@ function Scene6() {
         }
     }
 }
-
-
-// CODE DONE - HAS TO BE INTEGRATED
-
-// let w = window.innerWidth
-// let h = window.innerHeight
-// let d1
-// let phase = 0,
-//   speed = 0.03
-// let maxDotSize = 39
-// let numCols = 8
-// const COLORS = ['rgba(255, 199, 26,0.5)',
-//   'rgba(0, 166, 81, 0.5)',
-//   'rgba(237, 28, 36, 0.5)'
-// ]
-
-// function setup() {
-//   createCanvas(w, h);
-// }
-
-// function draw() {
-//   background('rgba(255, 199, 26,0.25)');
-//   noStroke()
-//   // translate(w/2,h/2)
-//   // rotate(frameCount/100)
-
-//   // Loop1
-//   for (let strand = 0; strand < 9; strand++) {
-//     fill('rgba(0, 166, 81, 0.5)')
-
-//     let x = map(strand, 0, numCols, maxDotSize, w - maxDotSize);
-
-//     phase = frameCount * speed
-//     let y = h / 2 + sin(phase + strand / 8) * 25
-//     let sizeOffset = (cos(phase + strand) + 1) * 0.5
-//     let circleSize = sizeOffset * maxDotSize
-//     d1 = new Dot(x, y, circleSize)
-
-//     d1.create()
-//   }
-
-//   // Loop2
-//   for (let strand = 9; strand > 0; strand--) {
-//     fill('rgba(237, 28, 36, 0.5)')
-
-//     let x = map(strand, numCols, 0, w - maxDotSize, maxDotSize);
-
-//     phase = frameCount * speed
-//     let y = h / 2 + cos(phase + strand / 8) * 25
-//     let sizeOffset = (sin(phase + strand) + 1) * 0.5
-//     let circleSize = sizeOffset * maxDotSize
-//     d1 = new Dot(x, y, circleSize)
-
-//     d1.create()
-//   }
-
-// }
-
-// // Dot Class
-// class Dot {
-//   constructor(x, y, s) {
-//     this.x = x
-//     this.y = y
-//     this.s = s
-//   }
-
-//   create() {
-//     ellipse(this.x, this.y, this.s, this.s)
-//   }
-// }

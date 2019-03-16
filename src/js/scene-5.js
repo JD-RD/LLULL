@@ -25,7 +25,7 @@ function Scene5() {
     }
 
     this.draw = function() {
-        background(255,199, 26, x3.value()+ 50 - x7.value() * 0.25)
+        background(255,199, 26, x3.value()+ 20 - x7.value() * 0.25)
         // dotList1
         fill(COLORS[1]);
         // inputs

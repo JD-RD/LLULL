@@ -52,17 +52,17 @@ function Scene3() {
 
     // KEYS CONTROL
     this.keyPressed = function() {
+        // console.log(key);     
+        // Scenes
         if(key == 0) {
             this.sceneManager.showScene( Intro );
             console.log('Intro');
         }else if (key == '1') {
-            this.resetScenes();
             this.sceneManager.showScene( Scene1 );
             console.log('Scene-1');
         } else if (key == '2') {
-            this.resetScenes();
             this.sceneManager.showScene( Scene2 );
-            console.log('Scene-2');
+            console.log('Scene-2')
         } else if (key == '3') {
             this.sceneManager.showScene( Scene3 );
             console.log('Scene-3')
@@ -84,7 +84,47 @@ function Scene3() {
         } else if (key == '9') {
             this.sceneManager.showScene( Scene9 );
             console.log('Scene-9')
+        // FrameRate
+        } else if (key == 'ArrowUp') {
+            if (rate <= 22) {
+                rate = rate + 2
+                console.log('Frame Rate +2: ' + rate)
+            }
+        } else if (key == 'ArrowDown') {
+            if (rate >= 4) {
+                rate = rate - 2
+                console.log('Frame Rate -2: ' + rate)
+            }
         }
+        // Transitions
+        else if(key == 'q') {
+            this.sceneManager.showScene( transition1 );
+            console.log('transition1');
+        }else if (key == 'w') {
+            this.sceneManager.showScene( transition2 );
+            console.log('transition2');
+        } else if (key == 'e') {
+            this.sceneManager.showScene( transition3 );
+            console.log('transition3')
+        } else if (key == 'r') {
+            this.sceneManager.showScene( transition4 );
+            console.log('transition4')
+        } else if (key == 't') {
+            this.sceneManager.showScene( transition5 );
+            console.log('transition5')
+        } else if (key == 'y') {
+            this.sceneManager.showScene( transition6 );
+            console.log('transition6')
+        } else if (key == 'u') {
+            this.sceneManager.showScene( transition7 );
+            console.log('transition7')
+        } else if (key == 'i') {
+            this.sceneManager.showScene( transition8 );
+            console.log('transition8')
+        } else if (key == 'o') {
+            this.sceneManager.showScene( transition9 );
+            console.log('transition9')
+        } 
     }
 
     // reset values

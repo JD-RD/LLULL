@@ -22,7 +22,7 @@ function Intro() {
         frameRate(rate);
         
         // bg
-        background(237,28, 36, x3.value()+ 25 - x7.value() * 0.25)
+        background(255,99,71, x3.value()+ 25 - x7.value() * 0.25)
         // random generation letters
         surprise = []; // 4 letters long
         for(let i=0; i < 3; i++) {
@@ -58,9 +58,8 @@ function Intro() {
     // Down Arrow: Frame Rate - 2
     // KEYS CONTROL
     this.keyPressed = function() {
-        
         // console.log(key);     
-
+        // Scenes
         if(key == 0) {
             this.sceneManager.showScene( Intro );
             console.log('Intro');
@@ -91,6 +90,7 @@ function Intro() {
         } else if (key == '9') {
             this.sceneManager.showScene( Scene9 );
             console.log('Scene-9')
+        // FrameRate
         } else if (key == 'ArrowUp') {
             if (rate <= 22) {
                 rate = rate + 2
@@ -102,5 +102,34 @@ function Intro() {
                 console.log('Frame Rate -2: ' + rate)
             }
         }
+        // Transitions
+        else if(key == 'q') {
+            this.sceneManager.showScene( transition1 );
+            console.log('transition1');
+        }else if (key == 'w') {
+            this.sceneManager.showScene( transition2 );
+            console.log('transition2');
+        } else if (key == 'e') {
+            this.sceneManager.showScene( transition3 );
+            console.log('transition3')
+        } else if (key == 'r') {
+            this.sceneManager.showScene( transition4 );
+            console.log('transition4')
+        } else if (key == 't') {
+            this.sceneManager.showScene( transition5 );
+            console.log('transition5')
+        } else if (key == 'y') {
+            this.sceneManager.showScene( transition6 );
+            console.log('transition6')
+        } else if (key == 'u') {
+            this.sceneManager.showScene( transition7 );
+            console.log('transition7')
+        } else if (key == 'i') {
+            this.sceneManager.showScene( transition8 );
+            console.log('transition8')
+        } else if (key == 'o') {
+            this.sceneManager.showScene( transition9 );
+            console.log('transition9')
+        } 
     }
 }

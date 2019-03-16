@@ -1,53 +1,63 @@
-function Scene6() {
-    // let dotSize1
-    let dotSize= w/12
-    let phase = 0
-    let speed = 0.03
-    let numCols = 8
-    const COLORS = ['rgba(255, 199, 26,0.5)',
-        'rgba(0, 166, 81, 0.5)',
-        'rgba(237, 28, 36, 0.5)'
-        ]
+function transition7() {
+    const colors = [  'rgba(255, 199, 26,0.5)',
+    'rgba(237, 28, 36, 0.5)', 
+    'rgba(0, 166, 81, 0.75)' ]
+    let rate = 8;
+    // font
+    let letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K'];
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let surprise = [];
+    let choice;
+    let formedWord;
+    let llull;
+    // x0=>size, x1=>transparency, x2=>color, x3=>random
+    let worlds = ['WHETHER?','WHAT?','OF WHAT?', 'WHY?', 'HOW MUCH?', 
+    'OF WHAT KIND?', 'WHEN?', 'WHERE?', 'HOW?']
 
     this.setup = function() {
-        // canvas
-    }
-
-    this.draw = function() {
-
-        background(255,199, 26, x3.value()+ 25 - x7.value() * 0.25)
-
-        // Loop1
-        for (let strand = 0; strand < 9; strand++) {
-            dotSize = w/12 + x0.value() 
-            let x = map(strand, 0, numCols, dotSize, w - dotSize);
-
-            phase = frameCount * speed + x1.value()
-            let y = h / 2 + sin(phase + strand / 8) * 25+ x2.value()/2
-            let sizeOffset = (cos(phase + strand) + 1) * 0.5
-            let circleSize = sizeOffset * dotSize
-
-            dot1 = new Dot(x, y)
-            dot1.creation(circleSize, COLORS[1])
-        }
-
-        // Loop2
-        for (let strand = 9; strand > 0; strand--) {
-            dotSize = w/12 +x4.value()
-
-            let x = map(strand, numCols, 0, w - dotSize, dotSize);
-
-            phase = frameCount * speed + x5.value()
-            let y = h / 2 + cos(phase + strand / 8) * 25 + x6.value()/2
-            let sizeOffset = (sin(phase + strand) + 1) * 0.5
-            let circleSize = sizeOffset * dotSize
-
-            dot1 = new Dot(x, y)
-            dot1.creation(circleSize, COLORS[2])
-        }
+        console.log('> intro: connected')
     }
     
-
+    this.draw = function() {
+        
+        // console.log('rate: ' + rate);
+        frameRate(rate);
+        
+        // bg
+        background(255,99,71, x3.value()+ 25 - x7.value() * 0.25)
+        // random generation letters
+        surprise = []; // 4 letters long
+        for(let i=0; i < worlds[6].length; i++) {
+            choice = random(); // (0-1) float number
+            if(choice > 0.5) {
+                surprise.push(letters[floor(random(letters.length))]);
+            }
+            surprise.push(numbers[int(random(numbers.length))]);
+        }
+        formedWord = surprise.join('');
+        // console.log(formedWord);
+        // text formation in two layers
+        if(choice > 0.5) {
+            llull = new word(
+                    w/2 + random( x2.value(), -x2.value()), // x position
+                    h/1.75 + random( x2.value(), -x2.value()), // y position
+                    color(colors[2]),         // color
+                    x0.value() + 200,                       // size
+                    formedWord);                            // text to add
+            llull.creation();
+        } else {
+            llull = new word(
+                    w/2 + random( x2.value(), -x2.value()),// x position
+                    h/1.75 + random( x2.value(), -x2.value()),// y position
+                    color(colors[0]),                              // color
+                    x0.value() + 200,                      // size
+                    worlds[6]);                              // text to add
+            llull.creation();
+        }
+    }
+    // keys | 0: Intro, 1: Scene-1, 2: Scene-2, ..., 9: Scene-9
+    // Up Arrow: Frame Rate + 2
+    // Down Arrow: Frame Rate - 2
     // KEYS CONTROL
     this.keyPressed = function() {
         // console.log(key);     

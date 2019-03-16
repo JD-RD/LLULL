@@ -29,38 +29,46 @@ function Scene7() {
     // // 9 sides = 0.69813170079
 
     this.draw = function() {
-        background(255,199, 26, x3.value()+ 25 - x7.value() * 0.25)
+        background(255,199, 26, x3.value()+ 15 - x7.value() * 0.15)
         // Rose 1
         push()
-            translate(w/2 + w / 12, h/2);
-            rotate(radians(frameCount/10) *  x3.value()/10)
+            translate(w/2 , h/2);
+            rotate(radians(frameCount/10) *  x0.value()/10)
             fill(COLORS[2])
+            beginShape()
             for( angle = 0 ; angle < TWO_PI * 10 + x0.value(); angle += 0.1) {
                 k = x1.value() / x0.value() // n / d;
-                r = (cos( k * angle )) * expander + x2.value() * 3
+                r = (cos( k * angle )) * expander + x2.value() * 1.5
                 posX = r * cos(angle)
                 posY = r * sin(angle)
                 noFill()
                 stroke(COLORS[2])
-                strokeWeight(3)
-                point(posX, posY)
+                // strokeWeight(3)
+                // point(posX, posY)
+                strokeWeight(0.5)
+                vertex(posX, posY)
                 }
+            endShape()
         pop()
          // Rose 2
         push()
-            translate(w/2 -  w/12, h/2);
-            rotate(radians(-frameCount/10) * x7.value()/10)
+            translate(w/2 , h/2);
+            rotate(radians(-frameCount/10) * x4.value()/10)
             fill(COLORS[2])
+            beginShape()
             for( angle = 0 ; angle < TWO_PI * 10 + x4.value(); angle += 0.1) {
                 k = x5.value() / x4.value() // n / d;
-                r = (cos( k * angle )) * expander + x6.value() * 3
+                r = (cos( k * angle )) * expander + x6.value() * 1.5
                 posX = r * cos(angle)
                 posY = r * sin(angle)
                 noFill()
                 stroke(COLORS[1])
-                strokeWeight(3)
-                point(posX, posY)
+                // strokeWeight(2)
+                // point(posX, posY)
+                strokeWeight(0.5)
+                vertex(posX, posY)
             }
+            endShape()
         pop()
     }
     

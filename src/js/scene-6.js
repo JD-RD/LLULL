@@ -15,15 +15,15 @@ function Scene6() {
 
     this.draw = function() {
 
-        // background(255,199, 26, x3.value()+ 50 - x7.value() * 0.25)
-        background('rgba(255, 199, 26,0.25)');
+        background(255,199, 26, x3.value()+ 25 - x7.value() * 0.25)
 
         // Loop1
         for (let strand = 0; strand < 9; strand++) {
+            dotSize = w/12 + x0.value() 
             let x = map(strand, 0, numCols, dotSize, w - dotSize);
 
-            phase = frameCount * speed
-            let y = h / 2 + sin(phase + strand / 8) * 25
+            phase = frameCount * speed + x1.value()
+            let y = h / 2 + sin(phase + strand / 8) * 25+ x2.value()/2
             let sizeOffset = (cos(phase + strand) + 1) * 0.5
             let circleSize = sizeOffset * dotSize
 
@@ -33,12 +33,12 @@ function Scene6() {
 
         // Loop2
         for (let strand = 9; strand > 0; strand--) {
-            
+            dotSize = w/12 +x4.value()
 
             let x = map(strand, numCols, 0, w - dotSize, dotSize);
 
-            phase = frameCount * speed
-            let y = h / 2 + cos(phase + strand / 8) * 25
+            phase = frameCount * speed + x5.value()
+            let y = h / 2 + cos(phase + strand / 8) * 25 + x6.value()/2
             let sizeOffset = (sin(phase + strand) + 1) * 0.5
             let circleSize = sizeOffset * dotSize
 

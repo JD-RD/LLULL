@@ -27,7 +27,7 @@ function setup() {
     manager.addScene ( Scene9 );
     // SCENE1 STARTS HERE
     // manager.showScene( Intro );
-    manager.showScene( Scene6 );  
+    manager.showScene( Scene7 );  
     // canvas
     createCanvas(w, h);
     background(0);
@@ -135,9 +135,6 @@ class Dot {
     circlePos(i, speed, radius) {
         this.x =  (w/2 - sin(-frameCount/speed+i) * radius) //+ w/7;
         this.y =  h/2 + cos(frameCount/speed+i) * radius;
-        // setInterval(function(){
-        //     frameCount = -frameCount
-        // },1000)
     }
     circleNeg(i, speed, radius) {
         this.x =  (w/2 + sin(frameCount/speed+i) * radius)//  - w/7;

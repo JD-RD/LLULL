@@ -45,7 +45,7 @@ function Scene5() {
         radius2 = 200 + x5.value()
         speed2 = (30 + x6.value()) / 3
 	    for(let i=0; i<dotList2.length; i++  ){
-        // radius = random(20,50);
+            // radius = random(20,50);
             dotList2[i].creation(dotSize2, COLORS[2]);
   	        dotList2[i].circleNeg(i, speed2, radius2);
         }

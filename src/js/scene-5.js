@@ -4,22 +4,52 @@
     // x3,x7    =>amount Perlin Noise / WIP
 
 function Scene5() {
-    let dot1, dot2
-    let dotSize = w/32;
-    let colors = [  'rgba(255, 199, 26,0.5)',
-                    'rgba(237, 28, 36, 0.5)', 
-                    'rgba(0, 166, 81, 0.5)' ]
-
+    dotList1 = [], dotList2=[]
+    let number = 9
+    let dotSize1, dotSize2 = w/32
+    let radius1, radius2 = 200
+    let speed1, speed2 = 30
+    const COLORS = [  'rgba(255, 199, 26,0.5)',
+                    'rgba(0, 166, 81, 0.5)', 
+                    'rgba(237, 28, 36, 0.5)']
 
     this.setup = function() {
-        dot1 =  new Dot(w/2, h/2)
+    // dotsList1
+    for(let i=0; i<number; i++){
+        dotList1.push( new Dot(w/2, h / 2, dotSize1));
+        }
+    // dotsList2
+    for(let i=0; i<number; i++){
+        dotList2.push( new Dot(w/2, h / 2, dotSize2));
+        }
     }
 
     this.draw = function() {
-        background(colors[0])
-        noiseMax = x3.value()/100
-        dot1.creationBlubby(colors[2])
-    }
+        background(255,199, 26, x3.value()+ 50 - x7.value() * 0.25)
+        // dotList1
+        fill(COLORS[1]);
+        // inputs
+        dotSize1 = w/32 + x0.value()
+        radius1 = 200 +x1.value()
+        speed1 = (30 + x2.value()) / 3
+
+	    for(let i=0; i<dotList1.length; i++  ){
+        // radius = random(20,50);
+            dotList1[i].creation(dotSize1, COLORS[1]);
+  	        dotList1[i].circlePos(i, speed1, radius1);
+        }
+        // dotList2
+        fill(COLORS[2]);
+        // inputs
+        dotSize2 = w/32 + x4.value()
+        radius2 = 200 + x5.value()
+        speed2 = (30 + x6.value()) / 3
+	    for(let i=0; i<dotList2.length; i++  ){
+        // radius = random(20,50);
+            dotList2[i].creation(dotSize2, COLORS[2]);
+  	        dotList2[i].circleNeg(i, speed2, radius2);
+        }
+    }       
 
     // KEYS CONTROL
     this.keyPressed = function() {
@@ -58,10 +88,7 @@ function Scene5() {
 }
 
 
-// CODE DONE -  HAS TO BE INTEGRATED
-// let w = window.innerWidth;
-// let h = window.innerHeight
-// let s = 20;
+// let dotSize = 20;
 // let dot;
 // let dotList1 = [], dotList2=[];
 // let radius = 200;
@@ -77,11 +104,11 @@ function Scene5() {
 //   createCanvas(w, h);
 //   // dotsList1
 //   for(let i=0; i<number; i++){
-//     dotList1.push( new Dot(w/2, h / 2, s));
+//     dotList1.push( new Dot(w/2, h / 2, dotSize));
 //   }
 //   // dotsList2
 //   for(let i=0; i<number; i++){
-//     dotList2.push( new Dot(w/2, h / 2, s));
+//     dotList2.push( new Dot(w/2, h / 2, dotSize));
 //   }
 // }
 

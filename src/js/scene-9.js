@@ -4,6 +4,11 @@
     // x3,x7    =>amount Perlin Noise / WIP
 
     function Scene9() {
+        let question
+        let rate = 8;
+        // font
+        // x0=>size, x1=>transparency, x2=>color, x3=>random
+        let worlds = ['?']
         let dot1, dot2
         let colors = [  'rgba(255, 199, 26,0.5)',
                         'rgba(237, 28, 36, 0.5)', 
@@ -16,19 +21,31 @@
         }
     
         this.draw = function() {
+        // console.log('rate: ' + rate);
+        frameRate(rate);
+        // bg
         background(255,199, 26, x3.value()+ 25 - x7.value() * 0.25)
-            // dot 1
-            push()
-                noiseMax = x2.value()/200
-                thickness = x1.value()/10
-                dot1.creationBlubby(colors[1])
-            pop()
-            // dot2
-            push()
-                noiseMax = x6.value()/100
-                thickness = x5.value()/10
-                dot2.creationBlubby(colors[2])
-            pop()
+        // dot 1
+        push()
+            noiseMax = x2.value()/200
+            thickness = x1.value()/10
+            dot1.creationBlubby(colors[1])
+        pop()
+        // dot2
+        push()
+            noiseMax = x6.value()/100
+            thickness = x5.value()/10
+            dot2.creationBlubby(colors[2])
+        pop()
+        // ? creation
+        question = new word(
+            w/2, 
+            h/1.75, 
+            color(colors[0]), 
+            x0.value() + 200, 
+            worlds[0])
+            
+        question.creation()
         }
     
         // KEYS CONTROL

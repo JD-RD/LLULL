@@ -35,8 +35,8 @@ function setup() {
     manager.addScene ( transition8 )
     manager.addScene ( transition9 )
     // SCENE1 STARTS HERE
-    manager.showScene( transition1 );
-    // manager.showScene( Scene1 );  
+    // manager.showScene( transition1 );
+    manager.showScene( Scene9 );  
     // canvas
     createCanvas(w, h);
     background(0);

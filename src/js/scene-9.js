@@ -38,14 +38,14 @@
             dot2.creationBlubby(colors[2])
         pop()
         // ? creation
-        question = new word(
-            w/2, 
-            h/1.75, 
-            color(colors[0]), 
-            x0.value() + 200, 
-            worlds[0])
+        // question = new word(
+        //     w/2, 
+        //     h/1.75, 
+        //     color(colors[0]), 
+        //     x0.value() + 200, 
+        //     worlds[0])
             
-        question.creation()
+        // question.creation()
         }
     
         // KEYS CONTROL

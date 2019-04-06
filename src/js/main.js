@@ -89,14 +89,14 @@ class Dot {
     fill(c)
     ellipse(this.x, this.y, s, s)
   }
-  // Scene1 
+  // Scene1
   randomness1 (rnd) {
-    this.x += random(-rnd, rnd) // random option
-    this.y += random(-rnd, rnd)
+    this.x += Math.random(-rnd, rnd) // random option
+    this.y += Math.random(-rnd, rnd)
   }
   // Scene 3
   randomness3 (rnd) {
-    this.y += random(-rnd, rnd) // random option
+    this.y += Math.random(-rnd, rnd) // random option
   }
   checkDistance (dotSize) {
     if (this.x > dotSize * 3 || this.x < -dotSize * 3) {
@@ -129,12 +129,12 @@ class Dot {
 
   // Scene-5 amazing how changing + and - sinus effects appear / play with them!
   circlePos (i, speed, radius) {
-    this.x = (w / 2 - sin( -frameCount / speed + i) * radius) // + w / 7
-    this.y = h / 2 + cos(frameCount / speed + i) * radius
+    this.x = (w / 2 - Math.sin(-frameCount / speed + i) * radius) // + w / 7
+    this.y = h / 2 + Math.cos(frameCount / speed + i) * radius
   }
   circleNeg (i, speed, radius) {
-    this.x = (w / 2 + sin(frameCount / speed + i) * radius)//  - w/7;
-    this.y = h / 2 - cos(frameCount / speed + i) * radius
+    this.x = (w / 2 + Math.sin(frameCount / speed + i) * radius)//  - w/7;
+    this.y = h / 2 - Math.cos(frameCount / speed + i) * radius
   }
 
   // Scene8-9
@@ -144,11 +144,11 @@ class Dot {
     fill(color)
     translate(w / 2, h / 2)
     for (let a = 0; a < TWO_PI; a += 0.02) {
-      let xoff = map(cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
-      let yoff = map(sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
-      let radius = map(noise(xoff, yoff, zoff), 0, 1, 100, 200)
-      let x = radius * cos(a)
-      let y = radius * sin(a)
+      let xoff = Array.prototype.map(Math.cos(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in x
+      let yoff = Array.prototype.map(Math.sin(a), -1, 1, 0, noiseMax)// offset through my perlinNoise spectrum in y
+      let radius = Array.prototype.map(noise(xoff, yoff, zoff), 0, 1, 100, 200)
+      let x = radius * Math.cos(a)
+      let y = radius * Math.sin(a)
       vertex(x, y)
     }
     endShape(CLOSE)
@@ -162,11 +162,11 @@ class Dot {
     noFill()
     translate(w / 2, h / 2)
     for (let a = 0; a < TWO_PI; a += 0.02) {
-      let xoff = map(cos(a), -1, 1, 0, noiseMax) // offset through my perlinNoise spectrum in x
-      let yoff = map(sin(a), -1, 1, 0, noiseMax) // offset through my perlinNoise spectrum in y
-      let radius = map(noise(xoff, yoff, zoff), 0, 1, 100, 200)
-      let x = radius * cos(a)
-      let y = radius * sin(a)
+      let xoff = Array.prototype.map(Math.cos(a), -1, 1, 0, noiseMax) // offset through my perlinNoise spectrum in x
+      let yoff = Array.prototype.map(Math.sin(a), -1, 1, 0, noiseMax) // offset through my perlinNoise spectrum in y
+      let radius = Array.prototype.map(noise(xoff, yoff, zoff), 0, 1, 100, 200)
+      let x = radius * Math.cos(a)
+      let y = radius * Math.sin(a)
       vertex(x, y)
     }
     endShape(CLOSE)

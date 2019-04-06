@@ -1,0 +1,34 @@
+{
+    "standard": {
+      "globals": 
+      [ "setup",
+        "createCanvas",
+        "background",
+        "createSlider",
+        "height",
+        "width",
+        "noStroke",
+        "fill",
+        "ellipse",
+        "dist",
+        "frameCount",
+        "beginShape",
+        "translate",
+        "TWO_PI",
+        "noise",
+        "vertex",
+        "endShape",
+        "CLOSE",
+        "stroke",
+        "strokeWeight",
+        "noFill",
+        "textSize",
+        "textFont",
+        "textAlign",
+        "text",
+        "WebMidi",
+        "Word",
+        "Dot"
+     ]
+    }
+  }

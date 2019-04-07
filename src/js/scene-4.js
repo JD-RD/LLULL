@@ -1,145 +1,90 @@
-function Scene4() {
+/* eslint-disable indent */
+/* eslint-disable no-debugger */
+/* eslint-disable no-global-assign */
+// debugger
+function Scene4() { // eslint-disable-line
     // x0,x4    =>dot size for each player
     // x1,x5    =>randomness for each player
     // x2,x6    =>alpha controlled by both players
     // x3,x7    =>amount of sin() controlled by both players
 
     // dots
-    let dot1, dot2
-    let dotSize = w/32;
-    let colors = [  'rgba(255, 199, 26,0.5)',
-                    'rgba(237, 28, 36, 0.5)', 
-                    'rgba(0, 166, 81, 0.5)' ]
+    let dotSize = w / 32
+    let colors = [ 'rgba(255, 199, 26,0.5)',
+                   'rgba(237, 28, 36, 0.5)',
+                   'rgba(0, 166, 81, 0.5)' ]
 
-    let dotList1 = [], dotList2 = []
-    let spacing1 = w/10, spacing2 = w/9.5
+    let dotList1 = []
+    let dotList2 = []
+    let spacing1 = w / 10
+    let spacing2 = w / 9.5
 
-   
-    this.setup = function() {
-        // dotList1 creation
-        for(let x = spacing1; x < w; x += spacing1) {
-            for( let y = spacing1; y < h; y += spacing1) {
-                dotList1.push(new Dot(x - dotSize/2, y - dotSize/2))
+    this.setup = function () {
+        // dotList1 create
+        for (let x = spacing1; x < w; x += spacing1) {
+            for (let y = spacing1; y < h; y += spacing1) {
+                dotList1.push(new Dot(x - dotSize / 2, y - dotSize / 2))
             }
         }
         console.log('dotList1:', dotList1)
-        // dotList2 creation
-        for(let x = spacing2; x < w; x += spacing2) {
-            for(let y = spacing1; y < h; y += spacing1) {
-                dotList2.push(new Dot(x - dotSize/2, y - dotSize/2))
+        // dotList2 create
+        for (let x = spacing2; x < w; x += spacing2) {
+            for (let y = spacing1; y < h; y += spacing1) {
+                dotList2.push(new Dot(x - dotSize / 2, y - dotSize / 2))
             }
         }
     }
 
-    this.draw = function() {
+    this.draw = function () {
         // bg - x2 adds x6 substracts alpha
-        background(255,199, 26, x2.value()+ 5 - x6.value() * 1.25)
+        background(255, 199, 26, x2.value() + 5 - x6.value() * 1.25)
 
         // grid translations - x3 adds x7 substracts rotation
         // translate(0, 0)
         // play with sin() to move the y grid position
-        translate(0, 10 + sin(frameCount/10) * x3.value()- x7.value())
+        translate(0, 10 + Math.sin(frameCount / 10) * x3.value() - x7.value())
 
         // dot1
-        for( let i=0; i< dotList1.length; i++){
-            dotList1[i].creation(dotSize + x0.value()*2, colors[1])
-            dotList1[i].randomness3(x1.value()/10)
-            noiseMax = x3.value()/100
+        for (let i = 0; i < dotList1.length; i++) {
+            dotList1[i].create(dotSize + x0.value() * 2, colors[1])
+            this.randomness(dotList1[i], x1.value() / 10)
+            noiseMax = x3.value() / 100
             // dotList1[i].creationBlubby(colors[1])
-            dotList1[i].checkDistance4(dotSize)
+            this.checkDistance(dotList1[i], dotSize)
           }
 
         // dot2
-        for( let i=0; i< dotList2.length; i++){
-            dotList2[i].creation(dotSize + x4.value()*2, colors[2])
-            dotList2[i].randomness3(x5.value()/10)
-            noiseMax = x3.value()/100
+        for (let i = 0; i < dotList2.length; i++) {
+            dotList2[i].create(dotSize + x4.value() * 2, colors[2])
+            this.randomness(dotList2[i], x5.value() / 10)
+            noiseMax = x3.value() / 100
             // dotList2[i].creationBlubby(colors[2])
-            dotList2[i].checkDistance4(dotSize)
+            this.checkDistance(dotList2[i], dotSize)
           }
-    }    
-
-    // KEYS CONTROL
-    this.keyPressed = function() {
-        // console.log(key);     
-        // Scenes
-        if(key == 0) {
-            this.sceneManager.showScene( Intro );
-            console.log('Intro');
-        }else if (key == '1') {
-            this.sceneManager.showScene( Scene1 );
-            console.log('Scene-1');
-        } else if (key == '2') {
-            this.sceneManager.showScene( Scene2 );
-            console.log('Scene-2')
-        } else if (key == '3') {
-            this.sceneManager.showScene( Scene3 );
-            console.log('Scene-3')
-        } else if (key == '4') {
-            this.sceneManager.showScene( Scene4 );
-            console.log('Scene-4')
-        } else if (key == '5') {
-            this.sceneManager.showScene( Scene5 );
-            console.log('Scene-5')
-        } else if (key == '6') {
-            this.sceneManager.showScene( Scene6 );
-            console.log('Scene-6')
-        } else if (key == '7') {
-            this.sceneManager.showScene( Scene7 );
-            console.log('Scene-7')
-        } else if (key == '8') {
-            this.sceneManager.showScene( Scene8 );
-            console.log('Scene-8')
-        } else if (key == '9') {
-            this.sceneManager.showScene( Scene9 );
-            console.log('Scene-9')
-        // FrameRate
-        } else if (key == 'ArrowUp') {
-            if (rate <= 22) {
-                rate = rate + 2
-                console.log('Frame Rate +2: ' + rate)
-            }
-        } else if (key == 'ArrowDown') {
-            if (rate >= 4) {
-                rate = rate - 2
-                console.log('Frame Rate -2: ' + rate)
-            }
-        }
-        // Transitions
-        else if(key == 'q') {
-            this.sceneManager.showScene( transition1 );
-            console.log('transition1');
-        }else if (key == 'w') {
-            this.sceneManager.showScene( transition2 );
-            console.log('transition2');
-        } else if (key == 'e') {
-            this.sceneManager.showScene( transition3 );
-            console.log('transition3')
-        } else if (key == 'r') {
-            this.sceneManager.showScene( transition4 );
-            console.log('transition4')
-        } else if (key == 't') {
-            this.sceneManager.showScene( transition5 );
-            console.log('transition5')
-        } else if (key == 'y') {
-            this.sceneManager.showScene( transition6 );
-            console.log('transition6')
-        } else if (key == 'u') {
-            this.sceneManager.showScene( transition7 );
-            console.log('transition7')
-        } else if (key == 'i') {
-            this.sceneManager.showScene( transition8 );
-            console.log('transition8')
-        } else if (key == 'o') {
-            this.sceneManager.showScene( transition9 );
-            console.log('transition9')
-        } 
     }
 
     // reset values
-    this.resetScenes =  function() {
+    this.resetScenes = function () {
         // multipliers values to 0
-        x0.value(0);
-        x1.value(0);
+        x0.value(0)
+        x1.value(0)
+    }
+
+    this.randomness = function (dot, dotSize) {
+        if (dot.y < 0) {
+            dot.y = dot.y + dotSize * 3 // we just pullback the dot 3 times it's size
+        }
+        if (dot.y > h) {
+            dot.y = dot.y - dotSize * 3
+        }
+    }
+
+    this.checkDistance = function (dot, dotSize) {
+        if (dot.y < 0) {
+            dot.y = dot.y + dotSize * 3 // we just pullback the dot 3 times it's size
+          }
+          if (dot.y > h) {
+            dot.y = dot.y - dotSize * 3
+          }
     }
 }

@@ -6,6 +6,7 @@ WebMidi.enable(function () {
   // var input = WebMidi.getInputByName('TR-8')
   // var input = WebMidi.getInputByName('Moog Sub Phatty')
   console.log(WebMidi.inputs)
+  /*
   let twister = WebMidi.getInputByName('Midi Fighter Twister')
   // Listen to control change message on Twister's channel 4
   twister.addListener('controlchange', 2,
@@ -13,7 +14,7 @@ WebMidi.enable(function () {
       console.log('Twister\'s ControlChange Number: ', e.controller.number)
       switch (e.controller.number) {
         case 0:
-          x0 = x0.value(e.value)
+          x0.value(e.value)
           // console.log('x0: ' + x0.value())
           break
         case 1:
@@ -48,7 +49,7 @@ WebMidi.enable(function () {
       }
     }
   )
-
+*/
   // var roland = WebMidi.getInputByName('TR-8')
   // var moog = WebMidi.getInputByName('Moog Sub Phatty');
   // Listen to control change message on Sub Phatty's channel 1

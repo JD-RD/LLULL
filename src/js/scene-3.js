@@ -30,6 +30,7 @@ function Scene3 () { // eslint-disable-line
     }
 
     this.draw = function () {
+        frameRate(rate)
         // bg - x2 adds x6 substracts alpha
         background(255, 199, 26, x2.value() + 5 - x6.value() * 1.25)
 
@@ -58,6 +59,7 @@ function Scene3 () { // eslint-disable-line
         // multipliers values to 0
         x0.value(0)
         x1.value(0)
+        frameRate(rate)
     }
 
     this.checkDistance = function () {

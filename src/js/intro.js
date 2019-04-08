@@ -24,9 +24,7 @@ function Intro () { // eslint-disable-line
     }
 
     this.draw = function () {
-        // console.log('rate: ' + rate)
         frameRate(rate)
-
         // bg
         background(255, 99, 71, x3.value() + 25 - x7.value() * 0.25)
         // random generation letters

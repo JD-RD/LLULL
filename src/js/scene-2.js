@@ -22,6 +22,7 @@ function Scene2 () { //eslint-disable-line
     }
 
     this.draw = function () {
+        frameRate(rate)
         // bg - x2 adds x6 substracts alpha
         background(255, 199, 26, x2.value() + 5 - x6.value() * 1.25)
         // grid translations - x3 adds x7 substracts rotation

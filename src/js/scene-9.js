@@ -23,30 +23,29 @@ function Scene9 () { // eslint-disable-line
     }
 
     this.draw = function () {
-    // console.log('rate: ' + rate);
-    frameRate(rate)
-    // bg
-    background(255, 199, 26, x3.value() + 25 - x7.value() * 0.25)
-    // dot 1
-    push()
-        noiseMax = x2.value() / 200
-        thickness = x1.value() / 10
-        dot1.creationBlubby(colors[1])
-    pop()
-    // dot2
-    push()
-        noiseMax = x6.value() / 100
-        thickness = x5.value() / 10
-        dot2.creationBlubby(colors[2])
-    pop()
-    // ? create
-    // question = new Word(
-    //     w/2, 
-    //     h/1.75, 
-    //     color(colors[0]), 
-    //     x0.value() + 200, 
-    //     worlds[0])
-   
-    // question.create()
+      // bg
+      background(255, 199, 26, x3.value() + 25 - x7.value() * 0.25)
+      // dot 1
+      push()
+          noiseMax = x2.value() / 200
+          thickness = x1.value() / 10
+          dot1.creationBlubby(colors[1])
+      pop()
+      // dot2
+      push()
+          noiseMax = x6.value() / 100
+          thickness = x5.value() / 10
+          dot2.creationBlubby(colors[2])
+      pop()
+      // ? create
+      // question = new Word(
+      //     w/2, 
+      //     h/1.75, 
+      //     color(colors[0]), 
+      //     x0.value() + 200, 
+      //     worlds[0])
+    
+      // question.create()
+      frameRate(rate)
     }
 }

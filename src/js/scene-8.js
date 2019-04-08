@@ -19,6 +19,7 @@ function Scene8 () { // eslint-disable-line
     }
 
     this.draw = function () {
+        frameRate(rate)
         background(255, 199, 26, x3.value() + 25 - x7.value() * 0.25)
         // dot 1
         push()

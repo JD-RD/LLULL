@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 /* eslint-disable no-debugger */
-debugger
+// debugger
 // MAIN.JS
 console.log('> main: connected')
 // distance (collisions)
@@ -19,7 +19,7 @@ let x0, x1, x2, x3, x4, x5, x6, x7
 // SceneManager
 let manager
 // frame rate
-let rate = 8
+let rate = 12
 
 // main p5js setup
 function setup () { // eslint-disable-line
@@ -128,6 +128,7 @@ function keyPressed() { // eslint-disable-line
         case 'ArrowDown':
             if (rate >= 4) {
                 rate = rate - 2 // eslint-disable-line
+                frameRate(rate)
             }
     }
     // dispatch via the SceneManager

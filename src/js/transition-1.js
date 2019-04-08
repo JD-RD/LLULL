@@ -25,7 +25,6 @@ function Transition1 () { // eslint-disable-line
   }
 
   this.draw = function () {
-    // console.log('rate: ' + rate);
     frameRate(rate)
     // bg
     background(255, 99, 71, x3.value() + 25 - x7.value() * 0.25)
@@ -58,5 +57,6 @@ function Transition1 () { // eslint-disable-line
         worlds[0])                                          // text to add
       llull.create()
     }
+    
   }
 }

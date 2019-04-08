@@ -18,13 +18,10 @@ function Transition4 () { // eslint-disable-line
     'OF WHAT KIND?', 'WHEN?', 'WHERE?', 'HOW?']
 
     this.setup = function () {
-        console.log('> intro: connected')
     }
 
     this.draw = function () {
-        // console.log('rate: ' + rate);
         frameRate(rate)
-
         // bg
         background(255, 99, 71, x3.value() + 25 - x7.value() * 0.25)
         // random generation letters

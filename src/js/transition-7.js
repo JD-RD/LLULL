@@ -5,7 +5,7 @@ function Transition7 () { // eslint-disable-line
     const colors = [ 'rgba(255, 199, 26,0.5)',
                      'rgba(237, 28, 36, 0.5)',
                      'rgba(0, 166, 81, 0.75)' ]
-    let rate = 8
+    
     // font
     let letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]

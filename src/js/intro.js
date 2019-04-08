@@ -6,7 +6,7 @@ function Intro () { // eslint-disable-line
     colors = [ 'rgba(255, 199, 26,0.5)',
                 'rgba(237, 28, 36, 0.5)',
                 'rgba(0, 166, 81, 0.75)' ]
-    rate = 8
+    
     // font
     letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
     numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]

@@ -6,7 +6,6 @@ function Transition1 () { // eslint-disable-line
   [ 'rgba(255, 199, 26,0.5)',
     'rgba(237, 28, 36, 0.5)',
     'rgba(0, 166, 81, 0.75)' ]
-  let rate = 8
   let choice
   // font
   let letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']

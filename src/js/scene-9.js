@@ -8,7 +8,7 @@
 // debugger
 function Scene9 () { // eslint-disable-line
     let question
-    let rate = 8
+    
     // font
     // x0=>size, x1=>transparency, x2=>color, x3=>random
     let worlds = ['?']

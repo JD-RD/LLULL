@@ -12,7 +12,7 @@ function Scene6 () { // eslint-disable-line
                      'rgba(237, 28, 36, 0.5)' ]
 
     this.setup = function () {
-        // canvas
+      frameRate(rate)
     }
 
     this.draw = function () {

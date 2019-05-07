@@ -5,7 +5,7 @@ function Transition3 () { // eslint-disable-line
     const colors = [ 'rgba(255, 199, 26,0.5)',
                      'rgba(237, 28, 36, 0.5)',
                      'rgba(0, 166, 81, 0.75)' ]
-    let rate = 8
+    
     // font
     let letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K']
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -18,13 +18,10 @@ function Transition3 () { // eslint-disable-line
     'OF WHAT KIND?', 'WHEN?', 'WHERE?', 'HOW?']
 
     this.setup = function () {
-        console.log('> intro: connected')
     }
 
     this.draw = function () {
-        // console.log('rate: ' + rate);
         frameRate(rate)
-
         // bg
         background(255, 99, 71, x3.value() + 25 - x7.value() * 0.25)
         // random generation letters

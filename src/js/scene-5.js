@@ -21,23 +21,24 @@ function Scene5 () { // eslint-disable-line
                      'rgba(237, 28, 36, 0.5)']
 
     this.setup = function () {
-    // dotsList1
-    for (let i = 0; i < number; i++) {
-        dotList1.push(new Dot(w / 2, h / 2, dotSize1))
-        }
-    // dotsList2
-    for (let i = 0; i < number; i++) {
-        dotList2.push(new Dot(w / 2, h / 2, dotSize2))
-        }
+      // dotsList1
+      for (let i = 0; i < number; i++) {
+          dotList1.push(new Dot(w / 2, h / 2, dotSize1))
+      }
+      // dotsList2
+      for (let i = 0; i < number; i++) {
+          dotList2.push(new Dot(w / 2, h / 2, dotSize2))
+      }
     }
 
     this.draw = function () {
-        background(255,199, 26, x3.value()+ 20 - x7.value() * 0.25)
+        frameRate(rate)
+        background(255, 199, 26, x3.value() + 20 - x7.value() * 0.25)
         // dotList1
-        fill(COLORS[1]);
+        fill(COLORS[1])
         // inputs
-        dotSize1 = w/32 + x0.value()
-        radius1 = 200 +x1.value()
+        dotSize1 = w / 32 + x0.value()
+        radius1 = 200 + x1.value()
         speed1 = (30 + x2.value()) / 3
 
         for (let i = 0; i < dotList1.length; i++) {

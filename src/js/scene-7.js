@@ -32,6 +32,7 @@ function Scene7 () { // eslint-disable-line
     // // 9 sides = 0.69813170079
 
     this.draw = function () {
+        frameRate(rate)
         background(255, 199, 26, x3.value() + 15 - x7.value() * 0.15)
         // Rose 1
         push() // eslint-disable-line

@@ -38,7 +38,7 @@ function Scene1 () { // eslint-disable-line
         dot2.create(dotSize / 2 + x4.value() * 2, colors[2])
         this.randomness(2, x5.value() / 10)
         this.checkDistance(2, dotSize)
-        dot2.checkCollision(dot2, dotSize)
+        dot2.checkCollision(1, dotSize)
     }
 
     // reset values
@@ -49,11 +49,11 @@ function Scene1 () { // eslint-disable-line
     }
 
     this.checkDistance = function (dotNumber, dotSize) {
-        // Needs testing
+        // Needs testing - Indeed!
         let dot
-        if (dotNumber === 1) {
+        if (dotNumber == 1) {
             dot = dot1
-        } else if (dotNumber === 2) {
+        } else if (dotNumber == 2) {
             dot = dot2
         }
 
@@ -66,7 +66,7 @@ function Scene1 () { // eslint-disable-line
     }
 
     this.randomness = function (dotNumber, rnd) {
-        // Needs testing
+        // Needs testing - Indeed!
         let dot
         if (dotNumber === 1) {
             dot = dot1
